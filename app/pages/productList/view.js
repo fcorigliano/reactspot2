@@ -1,5 +1,5 @@
 const React = require('react');
-const { useEffect, useState } = React;
+const { useEffect, useState, useRef } = React;
 const Head = require('nordic/head');
 const Script = require('nordic/script');
 const Style = require('nordic/style');
@@ -7,7 +7,7 @@ const serialize = require('serialize-javascript');
 const { injectI18n } = require('nordic/i18n');
 const Image = require('nordic/image');
 const restClient = require('nordic/restclient')({ 
-  timeout: 5000, 
+  timeout: 10000, 
   baseURL: '/api' 
 });
 
@@ -20,6 +20,8 @@ function View(props) {
   };
 
   const [products, setProducts] = useState([]);
+  const [productsCart, setProductsCart] = useState([]);
+  const quantityRef = useRef();
 
   useEffect(() => {
       restClient.get('/getProducts', {
@@ -28,10 +30,25 @@ function View(props) {
         }
       })
       .then(data => {
-        setProductList(data.data)
+        setProducts(data.data)
       });    
   }, []);
 
+  const handleSubmit = async (e) => {
+      e.preventDefault();
+
+      restClient.get('/getProduct', {
+          params: {
+              id: e.target.id
+          }
+      })
+        .then(product => {
+            setProductsCart(products => [...products, product.data]);
+        })
+        .catch(err => alert('No se pudo agregar el producto.'));
+  }
+
+  console.log(productsCart)
   return (
     <div className="demo">
 
@@ -56,7 +73,7 @@ function View(props) {
         {
           products.length
             ? products.map(p => {
-              const { id, title, thumbnail, price, permalink } = p;
+              const { id, title, thumbnail, price, description } = p;
 
               return (
                 <li key={id} className='card' >
@@ -66,6 +83,12 @@ function View(props) {
                     <div className="info-products">
                         <h4 className='title-product'>{i18n.gettext(title)} </h4>
                         <h3 className='price'>${price}</h3>
+                        <form id={id} onSubmit={e => handleSubmit(e)}>
+                            <label>Cantidad: </label>
+                            <input type="number" ref={quantityRef}/>
+                            <button type="submit">Agregar al carrito</button>
+                        </form>
+                        <p>{description}</p>
                     </div>
                 </li>
               )
