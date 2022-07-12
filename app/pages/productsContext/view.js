@@ -1,12 +1,13 @@
 const React = require('react');
-const { useEffect, useState } = React;
-const PropTypes = require('prop-types');
+const { useEffect, useState, useContext } = React;
+const { CartContext } = require('../../context/CartContext');
 const Head = require('nordic/head');
 const Script = require('nordic/script');
 const Style = require('nordic/style');
 const serialize = require('serialize-javascript');
 const { injectI18n } = require('nordic/i18n');
 const Product = require('../../components/Product');
+const Cart = require('../../components/Cart');
 const restClient = require('nordic/restclient')({ 
   timeout: 10000, 
   baseURL: '/api' 
@@ -20,8 +21,9 @@ function View(props) {
     imagesPrefix,
   };
 
+  const { cartProducts } = useContext(CartContext);
+  
   const [products, setProducts] = useState([]);
-  const [selectedProducts, setSelectedProducts] = useState([]);
 
   useEffect(() => {
       restClient.get('/getProducts', {
@@ -30,32 +32,37 @@ function View(props) {
         }
       })
       .then(data => {
-        setProducts(data.data);
+        setProducts(data.data)
       });    
   }, []);
-
-  console.log(selectedProducts);
   
   return (
     <div className="demo">
 
       <Head>
         <title>
-          producList Page
+          productContext Page
         </title>
       </Head>
 
-      <Style href="productList.css" />
+      <Style href="productsContext.css" />
       <Script>
         {`
            window.__PRELOADED_STATE__ = ${serialize(preloadedState, { isJSON: true })};
-           console.log('Product List page is loaded!');
+           console.log('Products Context page is loaded!');
          `}
       </Script>
       <Script src="vendor.js" />
-      <Script src="productList.js" />
+      <Script src="productsContext.js" />
 
-      <h1>productList</h1>
+      <h1>productsContext</h1>
+
+      {
+        cartProducts.length
+        ? <Cart i18n={i18n} />
+        : null
+      }
+      
       <ol>
         {
           products.length
@@ -68,7 +75,6 @@ function View(props) {
                 thumbnail={p.thumbnail}
                 price={p.price}
                 description={p.description}
-                setSelectedProducts={setSelectedProducts}
               />
             ))
             : <h4>{i18n.gettext('No se encontraron productos.')}</h4>
@@ -77,18 +83,6 @@ function View(props) {
     </div>
   );
 }
-
-View.propTypes = {
-  i18n: PropTypes.shape({
-    gettext: PropTypes.func.isRequired,
-  }).isRequired,
-  translations: PropTypes.shape({}),
-};
-
-View.defaultProps = {
-  translations: {},
-  imagesPrefix: '/',
-};
 
 
 module.exports = injectI18n(View);
