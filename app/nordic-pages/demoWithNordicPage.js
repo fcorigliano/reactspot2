@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import Image from 'nordic/image';
 
 import demoService from '../../services/demo';
-import DemoComponent from '../components/DemoComponent';
+// import DemoComponent from '../components/DemoComponent';
 
 const DemoWithNordicPage = (props) => {
   const { i18n } = useI18n();
@@ -23,7 +23,7 @@ const DemoWithNordicPage = (props) => {
           {i18n.gettext('Learn more about this feature')}
         </a>
       </h1>
-      <DemoComponent i18n={i18n} />
+      {/* <DemoComponent i18n={i18n} /> */}
 
       <h2>
         {i18n.gettext('Site details:')}

@@ -15,7 +15,7 @@ require('../../mocks');
 /**
  * Routers
  */
-const demoRoute = require('../pages/demo');
+const formsRoute = require('../pages/forms');
 
 /**
  * Use global middlewares
@@ -27,12 +27,12 @@ router.use(polyfillsMiddleware(config.polyfillLimits));
 /**
  * Redirect
  */
-router.get('/', (req, res) => res.redirect(`${config.ragnar.basePath}demo`));
+router.get('/', (req, res) => res.redirect(`${config.ragnar.basePath}form`));
 
 /**
  * Mount routers
  */
-router.use('/demo', demoRoute);
+router.use('/forms', formsRoute);
 
 /**
  * Expose router
