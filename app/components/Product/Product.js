@@ -2,34 +2,17 @@ const React = require('react');
 const { useRef, useContext } = React;
 const PropTypes = require('prop-types');
 const Image = require('nordic/image');
-const { CartContext } = require('../../context/CartContext');
 const restClient = require('nordic/restclient')({ 
     timeout: 10000, 
     baseURL: '/api' 
 });
 
 const Product = ({ i18n, id, title, thumbnail, price, description, setSelectedProducts }) => {
-    // const { cartProducts, setCartProducts } = useContext(CartContext);
     
     const quantityRef = useRef();
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // let idx;
-        // let exists = cartProducts?.some((p, i) => {
-        //     idx = i
-        //     return p.product.id == e.target.id
-        // })
-        // if(exists) {
-        //     setCartProducts(products => [
-        //         ...products,
-        //         products[idx] = {
-        //             ...products[idx], 
-        //             quantity: products[idx].quantity + quantityRef.current.value
-        //         }
-        //     ]);
-        //     return; 
-        // }
   
         restClient.get('/getProduct', {
             params: {
@@ -37,23 +20,15 @@ const Product = ({ i18n, id, title, thumbnail, price, description, setSelectedPr
             }
         })
           .then(product => {
-              if (typeof setSelectedProducts === 'function') {
-                  setSelectedProducts(products => [...products, {
-                      quantity: parseInt(quantityRef.current.value),
-                      product: product.data
-                    }]);
-                    quantityRef.current.value = '';
-              } else {
-                setCartProducts(products => [...products, {
+                setSelectedProducts(products => [...products, {
                     quantity: parseInt(quantityRef.current.value),
                     product: product.data
-                  }]);
-                  quantityRef.current.value = '';
-              }
+                }]);
+                quantityRef.current.value = '';
           })
           .catch(err => {
             console.log(err)  
-            alert('No se pudo agregar el producto.')
+            alert('No se pudo agregar el producto.');
           });
     }
 

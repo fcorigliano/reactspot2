@@ -6,7 +6,7 @@ const Script = require('nordic/script');
 const Style = require('nordic/style');
 const serialize = require('serialize-javascript');
 const { injectI18n } = require('nordic/i18n');
-const Product = require('../../components/Product');
+const ProductForContext = require('../../components/ProductForContext');
 const Cart = require('../../components/Cart');
 const restClient = require('nordic/restclient')({ 
   timeout: 10000, 
@@ -67,7 +67,7 @@ function View(props) {
         {
           products?.length
             ? products.map(p => (
-              <Product 
+              <ProductForContext 
                 key={p.id}
                 i18n={i18n}
                 id={p.id}

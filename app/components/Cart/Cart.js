@@ -6,6 +6,7 @@ const { CartContext } = require('../../context/CartContext');
 const Cart = ({ i18n }) => {
     const { cartProducts } = useContext(CartContext);
 
+    console.log(cartProducts)
     return (
         <ul>
             {

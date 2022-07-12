@@ -25,6 +25,7 @@
     "i18n:download": "i18n download"
   },
   "dependencies": {
+    "core-js": "3.23.4",
     "nordic": "^7.12.1"
   },
   "devDependencies": {
