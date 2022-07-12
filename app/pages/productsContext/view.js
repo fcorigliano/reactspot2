@@ -58,14 +58,14 @@ function View(props) {
       <h1>productsContext</h1>
 
       {
-        cartProducts.length
+        cartProducts?.length
         ? <Cart i18n={i18n} />
         : null
       }
       
       <ol>
         {
-          products.length
+          products?.length
             ? products.map(p => (
               <Product 
                 key={p.id}

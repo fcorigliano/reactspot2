@@ -9,7 +9,7 @@ const restClient = require('nordic/restclient')({
 });
 
 const Product = ({ i18n, id, title, thumbnail, price, description, setSelectedProducts }) => {
-    const { cartProducts, setCartProducts } = useContext(CartContext);
+    // const { cartProducts, setCartProducts } = useContext(CartContext);
     
     const quantityRef = useRef();
 
@@ -70,7 +70,7 @@ const Product = ({ i18n, id, title, thumbnail, price, description, setSelectedPr
                     <input type="number" ref={quantityRef}/>
                     <button type="submit">{i18n.gettext('Agregar al carrito')}</button>
                 </form>
-                <p>{description}</p>
+                <p>{i18n.gettext(description)}</p>
             </div>
         </li>
     )

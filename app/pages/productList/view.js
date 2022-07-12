@@ -58,7 +58,7 @@ function View(props) {
       <h1>productList</h1>
       <ol>
         {
-          products.length
+          products?.length
             ? products.map(p => (
               <Product 
                 key={p.id}

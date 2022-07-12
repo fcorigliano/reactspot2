@@ -29,7 +29,8 @@
   },
   "devDependencies": {
     "nordic-dev": "^7.12.1",
-    "nordic-e2e-toolkit": "1.0.0-wdio7-cucumber"
+    "nordic-e2e-toolkit": "1.0.0-wdio7-cucumber",
+    "supertest": "6.2.4"
   },
   "license": "private",
   "private": true
