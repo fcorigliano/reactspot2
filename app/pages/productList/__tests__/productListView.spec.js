@@ -56,9 +56,9 @@ describe('La view de ProductList', () => {
     });
 
     /**
-     * IMPORTANTE: el componente debe tener un sólo console.log, y ese
-     * console.log debe imprimir en consola el array de productos del
-     * carrito que implementamos.
+     * IMPORTANTE: el componente y sus hijos (si los tuviera) debe/n
+     * tener un sólo console.log, y ese console.log debe imprimir en 
+     * consola el array de productos del carrito que implementamos.
      */
     it('5) Agrega el producto a un array de productos seleccionados cuando se ingresa una cantidad y se presiona el botón', async() => {
         const input = screen.getAllByRole('spinbutton')[0];

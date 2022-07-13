@@ -14,7 +14,7 @@ const Cart = ({ i18n }) => {
                 {
                     cartProducts?.length 
                     ? cartProducts.map(p => (
-                        <li key={p.product.id}>
+                        <li data-testid={p.product.id} key={p.product.id}>
                             <h2>{i18n.gettext(p.product.title)}</h2>
                             <span>{p.quantity}</span>
                         </li>

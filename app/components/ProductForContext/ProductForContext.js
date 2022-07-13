@@ -52,7 +52,7 @@ const ProductForContext = ({ i18n, id, title, thumbnail, price, description }) =
     }
 
     return (
-        <li key={id} className='card' >
+        <li className='card' >
             <figure className="img">
                 <Image src={thumbnail} alt={i18n.gettext(title)} lazyload="off" />
             </figure>

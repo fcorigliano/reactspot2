@@ -32,7 +32,7 @@ function View(props) {
         }
       })
       .then(data => {
-        setProducts(data.data)
+        setProducts(data.data);
       });    
   }, []);
   

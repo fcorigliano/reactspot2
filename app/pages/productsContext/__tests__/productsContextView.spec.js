@@ -1,7 +1,7 @@
 const React = require('react')
 const ProducsContextView = require('../view');
 const { CartProvider } = require('../../../context/CartContext');
-const { render, screen, fireEvent, act } = require('@testing-library/react');
+const { render, screen, fireEvent, act, within } = require('@testing-library/react');
 const restclient = require('nordic/restclient');
 const mockProducts = require('./sample.json');
 const mockProduct = require('./sample2.json')
@@ -20,6 +20,7 @@ jest.mock('nordic/restclient', () => () => ({
 describe('La view de ProductsContext', () => {
     let component;
     const i18n = { gettext: text => text };
+
     beforeEach(async() => {
         await act(async() => {
             component = render(
@@ -56,14 +57,33 @@ describe('La view de ProductsContext', () => {
         expect(buttons.length).toBeGreaterThanOrEqual(6);
     });
 
-    xit('5) Agrega el producto a un array de productos seleccionados cuando se ingresa una cantidad y se presiona el botón', async() => {
+    it('5) Renderiza la lista productos seleccionados cuando se ingresa una cantidad y se presiona el botón para agregar al carrito', async() => {
         const input = screen.getAllByRole('spinbutton')[0];
-        const firstTitle = screen.getByText(/Motorola Edge 20 Lite 128 Gb Gris 6 Gb Ram/i);
-        fireEvent.change(input, { target: { value: 2}});
+        fireEvent.change(input, { target: { value: 5 }});
         await act(async() => {
             const button = screen.getAllByRole('button')[0];
             fireEvent.click(button);
         });
-       screen.debug();
+        const cartProduct = screen.getByTestId(mockProduct.id)
+        const quantity = within(cartProduct).getByText('5');
+        expect(cartProduct).toBeInTheDocument();
+        expect(quantity).toBeInTheDocument();
+    });
+
+    it('6) Suma la cantidad de productos seleccionados cuando agregamos 2 veces el mismo producto', async() => {
+        const input = screen.getAllByRole('spinbutton')[0];
+        fireEvent.change(input, { target: { value: 2 }});
+        const button = screen.getAllByRole('button')[0];
+        await act(async() => {
+            fireEvent.click(button);
+        });
+        fireEvent.change(input, { target: { value: 3 }});
+        await act(async() => {
+            fireEvent.click(button);
+        });
+        const cartProduct = screen.getByTestId(mockProduct.id)
+        const quantity = within(cartProduct).getByText('5');
+        expect(cartProduct).toBeInTheDocument();
+        expect(quantity).toBeInTheDocument();
     });
 });
