@@ -56,7 +56,7 @@ describe('La view de ProductsContext', () => {
         expect(buttons.length).toBeGreaterThanOrEqual(6);
     });
 
-    it('5) Agrega el producto a un array de productos seleccionados cuando se ingresa una cantidad y se presiona el botón', async() => {
+    xit('5) Agrega el producto a un array de productos seleccionados cuando se ingresa una cantidad y se presiona el botón', async() => {
         const input = screen.getAllByRole('spinbutton')[0];
         const firstTitle = screen.getByText(/Motorola Edge 20 Lite 128 Gb Gris 6 Gb Ram/i);
         fireEvent.change(input, { target: { value: 2}});
