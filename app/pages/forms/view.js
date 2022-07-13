@@ -22,8 +22,6 @@ function View(props) {
   const [filters, setFilters] = React.useState([]);
   const [comments, setComments] = React.useState([]);
 
-  console.log(comments)
-
   return (
     <div className="demo">
       {/* <MeliGA

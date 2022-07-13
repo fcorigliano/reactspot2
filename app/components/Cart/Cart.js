@@ -6,20 +6,23 @@ const { CartContext } = require('../../context/CartContext');
 const Cart = ({ i18n }) => {
     const { cartProducts } = useContext(CartContext);
 
-    console.log(cartProducts)
+    // console.log(cartProducts)
     return (
-        <ul>
-            {
-                cartProducts.length 
-                ? cartProducts.map(p => (
-                    <li key={p.product.id}>
-                        <h2>{i18n.gettext(p.product.title)}</h2>
-                        <span>{p.quantity}</span>
-                    </li>
-                ))
-                : null
-            }
-        </ul>
+        <>
+            <h1>Cart</h1>
+            <ul>
+                {
+                    cartProducts?.length 
+                    ? cartProducts.map(p => (
+                        <li key={p.product.id}>
+                            <h2>{i18n.gettext(p.product.title)}</h2>
+                            <span>{p.quantity}</span>
+                        </li>
+                    ))
+                    : null
+                }
+            </ul>
+        </>
     )
 }
 

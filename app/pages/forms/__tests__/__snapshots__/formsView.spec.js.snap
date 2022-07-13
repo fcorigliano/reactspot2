@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`La view de la page Forms 1) Renderiza 1`] = `
+<DocumentFragment>
+  <div
+    class="demo"
+  >
+    <form
+      id="precio"
+    >
+      <label>
+        Rango de Precio
+        <input
+          name="min"
+          placeholder="Min"
+          type="number"
+          value=""
+        />
+        <input
+          name="max"
+          placeholder="Max"
+          type="number"
+          value=""
+        />
+      </label>
+      <button
+        type="submit"
+      >
+        Agregar rango de precio
+      </button>
+    </form>
+    <form
+      id="categoria"
+    >
+      <label>
+        <input
+          name="category"
+          placeholder="Categoria"
+          type="text"
+          value=""
+        />
+      </label>
+      <button
+        type="submit"
+      >
+        Agregar filtro por categoría
+      </button>
+    </form>
+    <h2>
+      Filtros
+    </h2>
+    <ul />
+    <h2>
+      Feedback
+    </h2>
+    <form>
+      <input
+        name="name"
+        placeholder="Ingresa tu nombre..."
+        type="text"
+      />
+      <textarea
+        name="comment"
+        placeholder="Dejanos un comentario!"
+      />
+      <button
+        type="submit"
+      >
+        Dar feedback
+      </button>
+    </form>
+    <ol />
+  </div>
+</DocumentFragment>
+`;

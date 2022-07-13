@@ -2,7 +2,7 @@ const React = require('react');
 const { useRef, useContext } = React;
 const PropTypes = require('prop-types');
 const Image = require('nordic/image');
-const restClient = require('nordic/restclient')({ 
+const restclient = require('nordic/restclient')({ 
     timeout: 10000, 
     baseURL: '/api' 
 });
@@ -14,7 +14,7 @@ const Product = ({ i18n, id, title, thumbnail, price, description, setSelectedPr
     const handleSubmit = (e) => {
         e.preventDefault();
   
-        restClient.get('/getProduct', {
+        restclient.get('/getProduct', {
             params: {
                 id: e.target.id
             }

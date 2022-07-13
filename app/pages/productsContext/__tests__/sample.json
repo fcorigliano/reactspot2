@@ -1,0 +1,2230 @@
+[
+    {
+        "id": "MLA1131686227",
+        "site_id": "MLA",
+        "title": "Samsung Galaxy A03 128 Gb Negro 4 Gb Ram",
+        "description": "Doble cámara y más detalles Sus 2 cámaras traseras de 48 Mpx/2 Mpx te permitirán tomar imágenes con más detalles y lograr efectos únicos como el famoso modo retrato de poca profundidad de campo. Además, el dispositivo cuenta con cámara frontal de 5 Mpx para que puedas sacarte divertidas selfies o hacer videollamadas. Más para ver Con su pantalla PLS de 6.5, disfrutá de colores intensos y mayor nitidez en todos tus contenidos. Mayor rendimiento Su memoria RAM de 4 GB permite que tu smartphone funcione de manera fluida y sin demoras al realizar distintas tareas, jugar o navegar. Batería de duración superior ¡Desenchufate! Con la súper batería de 5000 mAh tendrás energía por mucho más tiempo para jugar, ver series o trabajar sin necesidad de realizar recargas. Gran capacidad de almacenamiento Con su memoria interna de 128 GB podrás almacenar archivos y aplicaciones de gran tamaño sin necesidad de subirlos a la nube y aprovechar tus momentos sin conexión para darles el máximo uso.",
+        "seller": {
+          "id": 608846165,
+          "permalink": "http://perfil.mercadolibre.com.ar/MERCADOLIBRE+ELECTRONICA_AR",
+          "registration_date": "2020-07-13T13:21:30.000-04:00",
+          "car_dealer": false,
+          "real_estate_agency": false,
+          "tags": [
+            "brand",
+            "large_seller",
+            "credits_profile",
+            "messages_as_seller"
+          ],
+          "seller_reputation": {
+            "power_seller_status": "platinum",
+            "level_id": "5_green",
+            "metrics": {
+              "cancellations": {
+                "period": "60 days",
+                "rate": 0,
+                "value": 0
+              },
+              "claims": {
+                "period": "60 days",
+                "rate": 0.008,
+                "value": 1370
+              },
+              "delayed_handling_time": {
+                "period": "60 days",
+                "rate": 0,
+                "value": 0
+              },
+              "sales": {
+                "period": "60 days",
+                "completed": 162367
+              }
+            },
+            "transactions": {
+              "canceled": 43390,
+              "period": "historic",
+              "total": 822628,
+              "ratings": {
+                "negative": 0.06,
+                "neutral": 0.01,
+                "positive": 0.93
+              },
+              "completed": 779238
+            }
+          }
+        },
+        "price": 38999,
+        "prices": {
+          "id": "MLA1131686227",
+          "prices": [
+            {
+              "id": "33",
+              "type": "standard",
+              "amount": 38999,
+              "regular_amount": null,
+              "currency_id": "ARS",
+              "last_updated": "2022-07-04T13:22:11Z",
+              "conditions": {
+                "context_restrictions": [
+                ],
+                "start_time": null,
+                "end_time": null,
+                "eligible": true
+              },
+              "exchange_rate_context": "DEFAULT",
+              "metadata": {
+              }
+            }
+          ],
+          "presentation": {
+            "display_currency": "ARS"
+          },
+          "payment_method_prices": [
+          ],
+          "reference_prices": [
+            {
+              "id": "31",
+              "type": "min_standard",
+              "conditions": {
+                "context_restrictions": [
+                  "channel_marketplace"
+                ],
+                "start_time": null,
+                "end_time": null,
+                "eligible": true
+              },
+              "amount": 33999,
+              "currency_id": "ARS",
+              "exchange_rate_context": "DEFAULT",
+              "tags": [
+              ],
+              "last_updated": "2022-07-04T04:11:59Z"
+            },
+            {
+              "id": "32",
+              "type": "was",
+              "conditions": {
+                "context_restrictions": [
+                  "channel_marketplace"
+                ],
+                "start_time": "2022-07-04T04:11:58Z",
+                "end_time": "2022-07-11T04:11:58Z",
+                "eligible": true
+              },
+              "amount": 35999,
+              "currency_id": "ARS",
+              "exchange_rate_context": "DEFAULT",
+              "tags": [
+              ],
+              "last_updated": "2022-07-04T04:11:59Z"
+            }
+          ],
+          "purchase_discounts": [
+          ]
+        },
+        "sale_price": null,
+        "currency_id": "ARS",
+        "available_quantity": 702,
+        "sold_quantity": 3079,
+        "buying_mode": "buy_it_now",
+        "listing_type_id": "gold_special",
+        "stop_time": "2042-04-06T04:00:00.000Z",
+        "condition": "new",
+        "permalink": "https://www.mercadolibre.com.ar/samsung-galaxy-a03-128-gb-negro-4-gb-ram/p/MLA18955028",
+        "thumbnail": "http://http2.mlstatic.com/D_737913-MLA49433851234_032022-I.jpg",
+        "thumbnail_id": "737913-MLA49433851234_032022",
+        "accepts_mercadopago": true,
+        "installments": {
+          "quantity": 12,
+          "amount": 5530.38,
+          "rate": 70.17,
+          "currency_id": "ARS"
+        },
+        "address": {
+          "state_id": "AR-B",
+          "state_name": "Buenos Aires",
+          "city_id": null,
+          "city_name": "Villa Celina"
+        },
+        "shipping": {
+          "free_shipping": true,
+          "mode": "me2",
+          "tags": [
+            "fulfillment",
+            "mandatory_free_shipping"
+          ],
+          "logistic_type": "fulfillment",
+          "store_pick_up": false
+        },
+        "seller_address": {
+          "id": "",
+          "comment": "",
+          "address_line": "",
+          "zip_code": "",
+          "country": {
+            "id": "AR",
+            "name": "Argentina"
+          },
+          "state": {
+            "id": "AR-B",
+            "name": "Buenos Aires"
+          },
+          "city": {
+            "id": null,
+            "name": "Villa Celina"
+          },
+          "latitude": "",
+          "longitude": ""
+        },
+        "attributes": [
+          {
+            "id": "BRAND",
+            "value_name": "Samsung",
+            "attribute_group_name": "Otros",
+            "source": 1,
+            "name": "Marca",
+            "value_id": "206",
+            "value_struct": null,
+            "values": [
+              {
+                "id": "206",
+                "name": "Samsung",
+                "struct": null,
+                "source": 1
+              }
+            ],
+            "attribute_group_id": "OTHERS"
+          },
+          {
+            "values": [
+              {
+                "id": "2230284",
+                "name": "Nuevo",
+                "struct": null,
+                "source": 1
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "source": 1,
+            "id": "ITEM_CONDITION",
+            "name": "Condición del ítem",
+            "value_name": "Nuevo",
+            "value_struct": null,
+            "value_id": "2230284",
+            "attribute_group_name": "Otros"
+          },
+          {
+            "value_id": "322977",
+            "values": [
+              {
+                "id": "322977",
+                "name": "Galaxy A",
+                "struct": null,
+                "source": 1
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros",
+            "source": 1,
+            "id": "LINE",
+            "name": "Línea",
+            "value_name": "Galaxy A",
+            "value_struct": null
+          },
+          {
+            "id": "MODEL",
+            "value_name": "A03",
+            "values": [
+              {
+                "source": 1,
+                "id": "231612",
+                "name": "A03",
+                "struct": null
+              }
+            ],
+            "attribute_group_name": "Otros",
+            "source": 1,
+            "name": "Modelo",
+            "value_id": "231612",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS"
+          },
+          {
+            "value_id": null,
+            "value_struct": {
+              "number": 17.6,
+              "unit": "cm"
+            },
+            "values": [
+              {
+                "source": 1,
+                "id": null,
+                "name": "17.6 cm",
+                "struct": {
+                  "number": 17.6,
+                  "unit": "cm"
+                }
+              }
+            ],
+            "attribute_group_name": "Otros",
+            "source": 1,
+            "name": "Largo del paquete",
+            "value_name": "17.6 cm",
+            "attribute_group_id": "OTHERS",
+            "id": "PACKAGE_LENGTH"
+          },
+          {
+            "id": "PACKAGE_WEIGHT",
+            "name": "Peso del paquete",
+            "value_name": "320 g",
+            "value_struct": {
+              "number": 320,
+              "unit": "g"
+            },
+            "values": [
+              {
+                "name": "320 g",
+                "struct": {
+                  "number": 320,
+                  "unit": "g"
+                },
+                "source": 1,
+                "id": null
+              }
+            ],
+            "source": 1,
+            "value_id": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+          },
+          {
+            "source": 1,
+            "value_struct": {
+              "number": 196,
+              "unit": "g"
+            },
+            "name": "Peso",
+            "value_id": "3044472",
+            "value_name": "196 g",
+            "values": [
+              {
+                "id": "3044472",
+                "name": "196 g",
+                "struct": {
+                  "number": 196,
+                  "unit": "g"
+                },
+                "source": 1
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros",
+            "id": "WEIGHT"
+          }
+        ],
+        "original_price": null,
+        "category_id": "MLA1055",
+        "official_store_id": 1550,
+        "domain_id": "MLA-CELLPHONES",
+        "catalog_product_id": "MLA18955028",
+        "tags": [
+          "extended_warranty_eligible",
+          "good_quality_picture",
+          "good_quality_thumbnail",
+          "immediate_payment",
+          "cart_eligible",
+          "shipping_guaranteed"
+        ],
+        "catalog_listing": true,
+        "use_thumbnail_id": true,
+        "offer_score": null,
+        "offer_share": null,
+        "match_score": null,
+        "winner_item_id": null,
+        "melicoin": null,
+        "discounts": null,
+        "order_backend": 1
+      },
+      {
+        "id": "MLA1113718634",
+        "site_id": "MLA",
+        "title": "Motorola Edge 20 Lite 128 Gb Gris 6 Gb Ram",
+        "description": "Fotografía profesional en tu bolsillo Descubrí infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados. Además, el dispositivo cuenta con cámara frontal de 32 Mpx para que puedas sacarte divertidas selfies o hacer videollamadas. Capacidad y eficiencia Con su potente procesador y memoria RAM de 6 GB tu equipo alcanzará un alto rendimiento con gran velocidad de transmisión de contenidos y ejecutará múltiples aplicaciones a la vez sin demoras. Desbloqueo facial y dactilar Máxima seguridad para que solo vos puedas acceder al equipo. Podrás elegir entre el sensor de huella dactilar para habilitar el teléfono en un toque, o el reconocimiento facial que permite un desbloqueo hasta un 30% más rápido. Batería de duración superior ¡Desenchufate! Con la súper batería de 5000 mAh tendrás energía por mucho más tiempo para jugar, ver series o trabajar sin necesidad de realizar recargas.",
+        "seller": {
+          "id": 608846165,
+          "permalink": "http://perfil.mercadolibre.com.ar/MERCADOLIBRE+ELECTRONICA_AR",
+          "registration_date": "2020-07-13T13:21:30.000-04:00",
+          "car_dealer": false,
+          "real_estate_agency": false,
+          "tags": [
+            "brand",
+            "large_seller",
+            "credits_profile",
+            "messages_as_seller"
+          ],
+          "seller_reputation": {
+            "power_seller_status": "platinum",
+            "level_id": "5_green",
+            "metrics": {
+              "cancellations": {
+                "period": "60 days",
+                "rate": 0,
+                "value": 0
+              },
+              "claims": {
+                "period": "60 days",
+                "rate": 0.008,
+                "value": 1370
+              },
+              "delayed_handling_time": {
+                "period": "60 days",
+                "rate": 0,
+                "value": 0
+              },
+              "sales": {
+                "period": "60 days",
+                "completed": 162367
+              }
+            },
+            "transactions": {
+              "canceled": 43390,
+              "period": "historic",
+              "total": 822628,
+              "ratings": {
+                "negative": 0.06,
+                "neutral": 0.01,
+                "positive": 0.93
+              },
+              "completed": 779238
+            }
+          }
+        },
+        "price": 69999,
+        "prices": {
+          "id": "MLA1113718634",
+          "prices": [
+            {
+              "id": "11",
+              "type": "standard",
+              "amount": 69999,
+              "regular_amount": null,
+              "currency_id": "ARS",
+              "last_updated": "2022-06-14T16:15:41Z",
+              "conditions": {
+                "context_restrictions": [
+                ],
+                "start_time": null,
+                "end_time": null,
+                "eligible": true
+              },
+              "exchange_rate_context": "DEFAULT",
+              "metadata": {
+              }
+            }
+          ],
+          "presentation": {
+            "display_currency": "ARS"
+          },
+          "payment_method_prices": [
+          ],
+          "reference_prices": [
+            {
+              "id": "16",
+              "type": "min_standard",
+              "conditions": {
+                "context_restrictions": [
+                  "channel_marketplace"
+                ],
+                "start_time": null,
+                "end_time": null,
+                "eligible": true
+              },
+              "amount": 69999,
+              "currency_id": "ARS",
+              "exchange_rate_context": "DEFAULT",
+              "tags": [
+              ],
+              "last_updated": "2022-07-03T04:13:40Z"
+            },
+            {
+              "id": "17",
+              "type": "was",
+              "conditions": {
+                "context_restrictions": [
+                  "channel_marketplace"
+                ],
+                "start_time": "2022-07-03T04:13:39Z",
+                "end_time": "2022-07-10T04:13:39Z",
+                "eligible": true
+              },
+              "amount": 72999,
+              "currency_id": "ARS",
+              "exchange_rate_context": "DEFAULT",
+              "tags": [
+              ],
+              "last_updated": "2022-07-03T04:13:40Z"
+            }
+          ],
+          "purchase_discounts": [
+          ]
+        },
+        "sale_price": null,
+        "currency_id": "ARS",
+        "available_quantity": 208,
+        "sold_quantity": 4783,
+        "buying_mode": "buy_it_now",
+        "listing_type_id": "gold_pro",
+        "stop_time": "2042-07-02T20:38:39.000Z",
+        "condition": "new",
+        "permalink": "https://www.mercadolibre.com.ar/motorola-edge-20-lite-128-gb-gris-6-gb-ram/p/MLA18495452",
+        "thumbnail": "http://http2.mlstatic.com/D_833619-MLA48233725917_112021-I.jpg",
+        "thumbnail_id": "833619-MLA48233725917_112021",
+        "accepts_mercadopago": true,
+        "installments": {
+          "quantity": 3,
+          "amount": 23333,
+          "rate": 0,
+          "currency_id": "ARS"
+        },
+        "address": {
+          "state_id": "AR-B",
+          "state_name": "Buenos Aires",
+          "city_id": null,
+          "city_name": "Villa Celina"
+        },
+        "shipping": {
+          "free_shipping": true,
+          "mode": "me2",
+          "tags": [
+            "fulfillment",
+            "mandatory_free_shipping"
+          ],
+          "logistic_type": "fulfillment",
+          "store_pick_up": false
+        },
+        "seller_address": {
+          "id": "",
+          "comment": "",
+          "address_line": "",
+          "zip_code": "",
+          "country": {
+            "id": "AR",
+            "name": "Argentina"
+          },
+          "state": {
+            "id": "AR-B",
+            "name": "Buenos Aires"
+          },
+          "city": {
+            "id": null,
+            "name": "Villa Celina"
+          },
+          "latitude": "",
+          "longitude": ""
+        },
+        "attributes": [
+          {
+            "name": "Marca",
+            "value_id": "2503",
+            "value_struct": null,
+            "values": [
+              {
+                "name": "Motorola",
+                "struct": null,
+                "source": 1,
+                "id": "2503"
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros",
+            "id": "BRAND",
+            "source": 1,
+            "value_name": "Motorola"
+          },
+          {
+            "attribute_group_name": "Otros",
+            "source": 3376461333454861,
+            "id": "DETAILED_MODEL",
+            "value_id": "-1",
+            "value_name": null,
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "name": "Modelo detallado",
+            "values": [
+              {
+                "id": "-1",
+                "name": null,
+                "struct": null,
+                "source": 3376461333454861
+              }
+            ]
+          },
+          {
+            "source": 3376461333454861,
+            "value_id": "9773722",
+            "value_name": "Mali-G57 MC3",
+            "value_struct": null,
+            "values": [
+              {
+                "name": "Mali-G57 MC3",
+                "struct": null,
+                "source": 3376461333454861,
+                "id": "9773722"
+              }
+            ],
+            "attribute_group_name": "Otros",
+            "id": "GPU_MODEL",
+            "name": "Modelo de GPU",
+            "attribute_group_id": "OTHERS"
+          },
+          {
+            "attribute_group_name": "Otros",
+            "id": "ITEM_CONDITION",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "values": [
+              {
+                "id": "2230284",
+                "name": "Nuevo",
+                "struct": null,
+                "source": 1
+              }
+            ],
+            "source": 1,
+            "name": "Condición del ítem",
+            "value_id": "2230284",
+            "value_name": "Nuevo"
+          },
+          {
+            "name": "Línea",
+            "values": [
+              {
+                "id": "5639416",
+                "name": "Edge",
+                "struct": null,
+                "source": 1
+              }
+            ],
+            "source": 1,
+            "id": "LINE",
+            "value_id": "5639416",
+            "value_name": "Edge",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+          },
+          {
+            "name": "Modelo",
+            "value_id": "8150118",
+            "value_name": "20 Lite",
+            "values": [
+              {
+                "struct": null,
+                "source": 1,
+                "id": "8150118",
+                "name": "20 Lite"
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "id": "MODEL",
+            "value_struct": null,
+            "attribute_group_name": "Otros",
+            "source": 1
+          },
+          {
+            "value_name": "18 cm",
+            "source": 4333789534002961,
+            "name": "Largo del paquete",
+            "value_id": null,
+            "values": [
+              {
+                "struct": {
+                  "number": 18,
+                  "unit": "cm"
+                },
+                "source": 4333789534002961,
+                "id": null,
+                "name": "18 cm"
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros",
+            "id": "PACKAGE_LENGTH",
+            "value_struct": {
+              "number": 18,
+              "unit": "cm"
+            }
+          },
+          {
+            "value_name": "420 g",
+            "value_struct": {
+              "number": 420,
+              "unit": "g"
+            },
+            "values": [
+              {
+                "id": null,
+                "name": "420 g",
+                "struct": {
+                  "unit": "g",
+                  "number": 420
+                },
+                "source": 4333789534002961
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros",
+            "id": "PACKAGE_WEIGHT",
+            "name": "Peso del paquete",
+            "value_id": null,
+            "source": 4333789534002961
+          },
+          {
+            "name": "Modelo del procesador",
+            "value_id": "11206381",
+            "values": [
+              {
+                "source": 1,
+                "id": "11206381",
+                "name": "MediaTek Dimensity 720",
+                "struct": null
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros",
+            "source": 1,
+            "id": "PROCESSOR_MODEL",
+            "value_name": "MediaTek Dimensity 720",
+            "value_struct": null
+          },
+          {
+            "name": "Peso",
+            "value_name": "185 g",
+            "values": [
+              {
+                "id": "1151096",
+                "name": "185 g",
+                "struct": {
+                  "number": 185,
+                  "unit": "g"
+                },
+                "source": 1
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros",
+            "source": 1,
+            "id": "WEIGHT",
+            "value_id": "1151096",
+            "value_struct": {
+              "number": 185,
+              "unit": "g"
+            }
+          }
+        ],
+        "differential_pricing": {
+          "id": 35713268
+        },
+        "original_price": null,
+        "category_id": "MLA1055",
+        "official_store_id": 1348,
+        "domain_id": "MLA-CELLPHONES",
+        "catalog_product_id": "MLA18495452",
+        "tags": [
+          "good_quality_picture",
+          "good_quality_thumbnail",
+          "3x_campaign",
+          "extended_warranty_eligible",
+          "immediate_payment",
+          "shipping_guaranteed",
+          "meli_choice_candidate"
+        ],
+        "catalog_listing": true,
+        "use_thumbnail_id": true,
+        "offer_score": null,
+        "offer_share": null,
+        "match_score": null,
+        "winner_item_id": null,
+        "melicoin": null,
+        "discounts": null,
+        "order_backend": 2
+      },
+      {
+        "id": "MLA933415694",
+        "site_id": "MLA",
+        "title": "Samsung Galaxy S20 Fe 128 Gb Cloud Navy 6 Gb Ram",
+        "description": "Pensado para vos El Samsung S20 FE posee el novedoso sistema operativo Android 10 que incorpora respuestas inteligentes y acciones sugeridas para todas tus aplicaciones. Entre sus diversas funcionalidades encontrarás el tema oscuro, navegación por gestos y modo sin distracciones, para que completes tus tareas mientras disfrutás al máximo tu dispositivo. Fotografía profesional en tu bolsillo Descubrí infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados. Perfecta para los amantes del plano detalle. Su zoom óptico te ofrecerá la posibilidad de realizar acercamientos sin que tus capturas pierdan calidad. Experiencia visual increíble Mirá tus series y películas favoritas con la mejor definición a través de su pantalla Super AMOLED de 6.5. Disfrutá de colores brillantes y detalles precisos en todos tus contenidos. Desbloqueo veloz con tu huella dactilar Con el sensor de huella dactilar, el acceso es seguro y podrás desbloquearlo automáticamente con un toque. Batería de duración superior ¡Desenchufate! Con la súper batería de 4500 mAh tendrás energía por mucho más tiempo para jugar, ver series o trabajar sin necesidad de realizar recargas.",
+        "seller": {
+          "id": 287440338,
+          "permalink": "http://perfil.mercadolibre.com.ar/TIENDA+DIGGIT",
+          "registration_date": "2018-02-21T16:31:45.000-04:00",
+          "car_dealer": false,
+          "real_estate_agency": false,
+          "tags": [
+            "brand",
+            "large_seller",
+            "mshops",
+            "credits_profile",
+            "messages_as_seller"
+          ],
+          "seller_reputation": {
+            "power_seller_status": "platinum",
+            "level_id": "5_green",
+            "metrics": {
+              "cancellations": {
+                "period": "60 days",
+                "rate": 0.0033,
+                "value": 67
+              },
+              "claims": {
+                "period": "60 days",
+                "rate": 0.013,
+                "value": 259
+              },
+              "delayed_handling_time": {
+                "period": "60 days",
+                "rate": 0.0384,
+                "value": 666
+              },
+              "sales": {
+                "period": "60 days",
+                "completed": 18809
+              }
+            },
+            "transactions": {
+              "canceled": 6273,
+              "period": "historic",
+              "total": 113650,
+              "ratings": {
+                "negative": 0.05,
+                "neutral": 0.02,
+                "positive": 0.93
+              },
+              "completed": 107377
+            }
+          }
+        },
+        "price": 112999,
+        "prices": {
+          "id": "MLA933415694",
+          "prices": [
+            {
+              "id": "115",
+              "type": "standard",
+              "amount": 112999,
+              "regular_amount": null,
+              "currency_id": "ARS",
+              "last_updated": "2022-07-04T17:59:45Z",
+              "conditions": {
+                "context_restrictions": [
+                ],
+                "start_time": null,
+                "end_time": null,
+                "eligible": true
+              },
+              "exchange_rate_context": "DEFAULT",
+              "metadata": {
+              }
+            }
+          ],
+          "presentation": {
+            "display_currency": "ARS"
+          },
+          "payment_method_prices": [
+            {
+              "id": "b0022eb7-8c40-4dbd-9630-374d0ad5c87b",
+              "conditions": {
+                "allowed_methods": [
+                  {
+                    "id": "consumer_credits",
+                    "issuer_id": 2032,
+                    "payment_type_id": "digital_currency",
+                    "installments": null
+                  }
+                ],
+                "start_time": "2022-06-09T03:00:00Z",
+                "end_time": "2022-07-15T03:00:00Z",
+                "restricted_to_prices": [
+                ]
+              },
+              "value": 5,
+              "type": "percentage",
+              "currency_id": null,
+              "metadata": {
+                "purchase_discount_id": "MLA924001",
+                "purchase_discount_type": "BD",
+                "purchase_discount_campaign_id": "P-MLA6365009",
+                "purchase_discount_rebate_id": "OFFER-MLA933415694-295780192"
+              },
+              "exchange_rate_context": "DEFAULT"
+            }
+          ],
+          "reference_prices": [
+            {
+              "id": "113",
+              "type": "min_standard",
+              "conditions": {
+                "context_restrictions": [
+                  "channel_marketplace"
+                ],
+                "start_time": null,
+                "end_time": null,
+                "eligible": true
+              },
+              "amount": 84999,
+              "currency_id": "ARS",
+              "exchange_rate_context": "DEFAULT",
+              "tags": [
+              ],
+              "last_updated": "2022-07-04T04:12:00Z"
+            },
+            {
+              "id": "114",
+              "type": "was",
+              "conditions": {
+                "context_restrictions": [
+                  "channel_marketplace"
+                ],
+                "start_time": "2022-07-04T04:12:00Z",
+                "end_time": "2022-07-11T04:12:00Z",
+                "eligible": true
+              },
+              "amount": 102999,
+              "currency_id": "ARS",
+              "exchange_rate_context": "DEFAULT",
+              "tags": [
+              ],
+              "last_updated": "2022-07-04T04:12:00Z"
+            }
+          ],
+          "purchase_discounts": [
+            {
+              "purchase_discount_id": "MLA924001",
+              "campaign_id": "P-MLA6365009",
+              "rebate_id": "OFFER-MLA933415694-295780192",
+              "type": "BD",
+              "discount_percentage": 0.05,
+              "conditions": {
+                "context_restrictions": [
+                  "channel_marketplace"
+                ],
+                "start_time": "2022-06-09T03:00:00Z",
+                "end_time": "2022-07-15T03:00:00Z",
+                "eligible": true
+              },
+              "purchase_min_amount": 1,
+              "max_discount_amount": 11000,
+              "max_benefit_count": 1,
+              "funding_mode": "coupon"
+            }
+          ]
+        },
+        "sale_price": null,
+        "currency_id": "ARS",
+        "available_quantity": 5,
+        "sold_quantity": 558,
+        "buying_mode": "buy_it_now",
+        "listing_type_id": "gold_special",
+        "stop_time": "2042-06-29T15:26:54.000Z",
+        "condition": "new",
+        "permalink": "https://www.mercadolibre.com.ar/samsung-galaxy-s20-fe-128-gb-cloud-navy-6-gb-ram/p/MLA16211370",
+        "thumbnail": "http://http2.mlstatic.com/D_995741-MLA47861036467_102021-I.jpg",
+        "thumbnail_id": "995741-MLA47861036467_102021",
+        "accepts_mercadopago": true,
+        "installments": {
+          "quantity": 12,
+          "amount": 16024.2,
+          "rate": 70.17,
+          "currency_id": "ARS"
+        },
+        "address": {
+          "state_id": "AR-B",
+          "state_name": "Buenos Aires",
+          "city_id": null,
+          "city_name": "Garin"
+        },
+        "shipping": {
+          "free_shipping": true,
+          "mode": "me2",
+          "tags": [
+            "fulfillment",
+            "mandatory_free_shipping"
+          ],
+          "logistic_type": "fulfillment",
+          "store_pick_up": false
+        },
+        "seller_address": {
+          "id": "",
+          "comment": "",
+          "address_line": "",
+          "zip_code": "",
+          "country": {
+            "id": "AR",
+            "name": "Argentina"
+          },
+          "state": {
+            "id": "AR-B",
+            "name": "Buenos Aires"
+          },
+          "city": {
+            "id": null,
+            "name": "Garin"
+          },
+          "latitude": "",
+          "longitude": ""
+        },
+        "attributes": [
+          {
+            "values": [
+              {
+                "id": "206",
+                "name": "Samsung",
+                "struct": null,
+                "source": 1
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "source": 1,
+            "value_name": "Samsung",
+            "value_struct": null,
+            "value_id": "206",
+            "attribute_group_name": "Otros",
+            "id": "BRAND",
+            "name": "Marca"
+          },
+          {
+            "source": 6808261514773724,
+            "value_name": "Nuevo",
+            "value_struct": null,
+            "values": [
+              {
+                "id": "2230284",
+                "name": "Nuevo",
+                "struct": null,
+                "source": 6808261514773724
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "id": "ITEM_CONDITION",
+            "name": "Condición del ítem",
+            "value_id": "2230284",
+            "attribute_group_name": "Otros"
+          },
+          {
+            "id": "LINE",
+            "value_id": "249991",
+            "values": [
+              {
+                "source": 1,
+                "id": "249991",
+                "name": "Galaxy S",
+                "struct": null
+              }
+            ],
+            "source": 1,
+            "name": "Línea",
+            "value_name": "Galaxy S",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+          },
+          {
+            "id": "MODEL",
+            "value_struct": null,
+            "values": [
+              {
+                "struct": null,
+                "source": 1,
+                "id": "9062754",
+                "name": "S20 FE"
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "name": "Modelo",
+            "value_id": "9062754",
+            "value_name": "S20 FE",
+            "attribute_group_name": "Otros",
+            "source": 1
+          },
+          {
+            "value_struct": {
+              "number": 190,
+              "unit": "g"
+            },
+            "value_id": "1365",
+            "value_name": "190 g",
+            "values": [
+              {
+                "name": "190 g",
+                "struct": {
+                  "number": 190,
+                  "unit": "g"
+                },
+                "source": 1,
+                "id": "1365"
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros",
+            "source": 1,
+            "id": "WEIGHT",
+            "name": "Peso"
+          }
+        ],
+        "original_price": null,
+        "category_id": "MLA1055",
+        "official_store_id": 1425,
+        "domain_id": "MLA-CELLPHONES",
+        "catalog_product_id": "MLA16211370",
+        "tags": [
+          "good_quality_picture",
+          "good_quality_thumbnail",
+          "loyalty_discount_eligible",
+          "extended_warranty_eligible",
+          "immediate_payment",
+          "cart_eligible",
+          "shipping_guaranteed",
+          "meli_choice_candidate"
+        ],
+        "catalog_listing": true,
+        "use_thumbnail_id": true,
+        "offer_score": null,
+        "offer_share": null,
+        "match_score": null,
+        "winner_item_id": null,
+        "melicoin": null,
+        "discounts": null,
+        "order_backend": 3
+      },
+      {
+        "id": "MLA1145986600",
+        "site_id": "MLA",
+        "title": " Moto G22 128 Gb Cosmic Black 4 Gb Ram",
+        "description": "Fotografía profesional en tu bolsillo Descubrí infinitas posibilidades para tus fotos con las 4 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados. Mayor rendimiento Su memoria RAM de 4 GB permite que tu smartphone funcione de manera fluida y sin demoras al realizar distintas tareas, jugar o navegar. Desbloqueo facial y dactilar Máxima seguridad para que solo vos puedas acceder al equipo. Podrás elegir entre el sensor de huella dactilar para habilitar el teléfono en un toque, o el reconocimiento facial que permite un desbloqueo hasta un 30% más rápido. Batería de duración superior ¡Desenchufate! Con la súper batería de 5000 mAh tendrás energía por mucho más tiempo para jugar, ver series o trabajar sin necesidad de realizar recargas.",
+        "seller": {
+          "id": 37470802,
+          "permalink": "http://perfil.mercadolibre.com.ar/TECNO-ENVIO",
+          "registration_date": "2010-11-23T10:34:47.000-04:00",
+          "car_dealer": false,
+          "real_estate_agency": false,
+          "tags": [
+            "normal",
+            "credits_profile",
+            "mshops",
+            "messages_as_seller"
+          ],
+          "seller_reputation": {
+            "power_seller_status": "gold",
+            "level_id": "5_green",
+            "metrics": {
+              "cancellations": {
+                "period": "60 days",
+                "rate": 0,
+                "value": 0
+              },
+              "claims": {
+                "period": "60 days",
+                "rate": 0,
+                "value": 1
+              },
+              "delayed_handling_time": {
+                "period": "60 days",
+                "rate": 0.0129,
+                "value": 3
+              },
+              "sales": {
+                "period": "60 days",
+                "completed": 228
+              }
+            },
+            "transactions": {
+              "canceled": 117,
+              "period": "historic",
+              "total": 2255,
+              "ratings": {
+                "negative": 0.01,
+                "neutral": 0.01,
+                "positive": 0.98
+              },
+              "completed": 2138
+            }
+          }
+        },
+        "price": 53000,
+        "prices": {
+          "id": "MLA1145986600",
+          "prices": [
+            {
+              "id": "1",
+              "type": "standard",
+              "amount": 53000,
+              "regular_amount": null,
+              "currency_id": "ARS",
+              "last_updated": "2022-07-07T15:37:52Z",
+              "conditions": {
+                "context_restrictions": [
+                  "channel_marketplace"
+                ],
+                "start_time": null,
+                "end_time": null,
+                "eligible": true
+              },
+              "exchange_rate_context": "DEFAULT",
+              "metadata": {
+              }
+            },
+            {
+              "id": "2",
+              "type": "standard",
+              "amount": 51000,
+              "regular_amount": null,
+              "currency_id": "ARS",
+              "last_updated": "2022-07-07T15:37:52Z",
+              "conditions": {
+                "context_restrictions": [
+                  "channel_mshops"
+                ],
+                "start_time": null,
+                "end_time": null,
+                "eligible": true
+              },
+              "exchange_rate_context": "DEFAULT",
+              "metadata": {
+              }
+            }
+          ],
+          "presentation": {
+            "display_currency": "ARS"
+          },
+          "payment_method_prices": [
+          ],
+          "reference_prices": [
+            {
+              "id": "3",
+              "type": "min_standard",
+              "conditions": {
+                "context_restrictions": [
+                  "channel_marketplace"
+                ],
+                "start_time": null,
+                "end_time": null,
+                "eligible": true
+              },
+              "amount": 53000,
+              "currency_id": "ARS",
+              "exchange_rate_context": "DEFAULT",
+              "tags": [
+              ],
+              "last_updated": "2022-07-07T15:38:23Z"
+            }
+          ],
+          "purchase_discounts": [
+          ]
+        },
+        "sale_price": null,
+        "currency_id": "ARS",
+        "available_quantity": 22,
+        "sold_quantity": 8,
+        "buying_mode": "buy_it_now",
+        "listing_type_id": "gold_special",
+        "stop_time": "2042-07-02T04:00:00.000Z",
+        "condition": "new",
+        "permalink": "https://www.mercadolibre.com.ar/moto-g22-128-gb-cosmic-black-4-gb-ram/p/MLA19049553",
+        "thumbnail": "http://http2.mlstatic.com/D_854793-MLA50262132804_062022-I.jpg",
+        "thumbnail_id": "854793-MLA50262132804_062022",
+        "accepts_mercadopago": true,
+        "installments": {
+          "quantity": 12,
+          "amount": 7515.84,
+          "rate": 70.17,
+          "currency_id": "ARS"
+        },
+        "address": {
+          "state_id": "AR-C",
+          "state_name": "Capital Federal",
+          "city_id": null,
+          "city_name": "mataderos"
+        },
+        "shipping": {
+          "free_shipping": true,
+          "mode": "me2",
+          "tags": [
+            "fulfillment",
+            "self_service_out",
+            "mandatory_free_shipping"
+          ],
+          "logistic_type": "fulfillment",
+          "store_pick_up": false
+        },
+        "seller_address": {
+          "id": "",
+          "comment": "",
+          "address_line": "",
+          "zip_code": "",
+          "country": {
+            "id": "AR",
+            "name": "Argentina"
+          },
+          "state": {
+            "id": "AR-C",
+            "name": "Capital Federal"
+          },
+          "city": {
+            "id": null,
+            "name": "mataderos"
+          },
+          "latitude": "",
+          "longitude": ""
+        },
+        "attributes": [
+          {
+            "source": 1,
+            "id": "BRAND",
+            "name": "Marca",
+            "attribute_group_id": "OTHERS",
+            "values": [
+              {
+                "id": "2503",
+                "name": "Motorola",
+                "struct": null,
+                "source": 1
+              }
+            ],
+            "attribute_group_name": "Otros",
+            "value_id": "2503",
+            "value_name": "Motorola",
+            "value_struct": null
+          },
+          {
+            "id": "GPU_MODEL",
+            "name": "Modelo de GPU",
+            "value_id": "7498817",
+            "value_struct": null,
+            "attribute_group_name": "Otros",
+            "value_name": "PowerVR GE8320",
+            "values": [
+              {
+                "struct": null,
+                "source": 1,
+                "id": "7498817",
+                "name": "PowerVR GE8320"
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "source": 1
+          },
+          {
+            "name": "Condición del ítem",
+            "value_id": "2230284",
+            "value_name": "Nuevo",
+            "value_struct": null,
+            "source": 6808261514773724,
+            "id": "ITEM_CONDITION",
+            "values": [
+              {
+                "id": "2230284",
+                "name": "Nuevo",
+                "struct": null,
+                "source": 6808261514773724
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+          },
+          {
+            "name": "Línea",
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros",
+            "source": 1,
+            "id": "LINE",
+            "value_id": "3073863",
+            "value_name": "Moto G",
+            "value_struct": null,
+            "values": [
+              {
+                "id": "3073863",
+                "name": "Moto G",
+                "struct": null,
+                "source": 1
+              }
+            ]
+          },
+          {
+            "values": [
+              {
+                "id": "2593828",
+                "name": "G22",
+                "struct": null,
+                "source": 1
+              }
+            ],
+            "attribute_group_name": "Otros",
+            "source": 1,
+            "id": "MODEL",
+            "name": "Modelo",
+            "value_id": "2593828",
+            "value_name": "G22",
+            "value_struct": null,
+            "attribute_group_id": "OTHERS"
+          },
+          {
+            "id": "PACKAGE_LENGTH",
+            "value_struct": {
+              "unit": "cm",
+              "number": 9.8
+            },
+            "attribute_group_id": "OTHERS",
+            "source": 4333789534002961,
+            "name": "Largo del paquete",
+            "value_id": null,
+            "value_name": "9.8 cm",
+            "values": [
+              {
+                "id": null,
+                "name": "9.8 cm",
+                "struct": {
+                  "number": 9.8,
+                  "unit": "cm"
+                },
+                "source": 4333789534002961
+              }
+            ],
+            "attribute_group_name": "Otros"
+          },
+          {
+            "value_id": null,
+            "value_struct": {
+              "number": 360,
+              "unit": "g"
+            },
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros",
+            "id": "PACKAGE_WEIGHT",
+            "name": "Peso del paquete",
+            "value_name": "360 g",
+            "values": [
+              {
+                "id": null,
+                "name": "360 g",
+                "struct": {
+                  "number": 360,
+                  "unit": "g"
+                },
+                "source": 4333789534002961
+              }
+            ],
+            "source": 4333789534002961
+          },
+          {
+            "id": "PROCESSOR_MODEL",
+            "value_id": "12002613",
+            "value_struct": null,
+            "attribute_group_name": "Otros",
+            "name": "Modelo del procesador",
+            "value_name": "Mediatek MT6765V/CB Helio G37",
+            "values": [
+              {
+                "id": "12002613",
+                "name": "Mediatek MT6765V/CB Helio G37",
+                "struct": null,
+                "source": 1
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "source": 1
+          },
+          {
+            "id": "WEIGHT",
+            "value_struct": {
+              "number": 185,
+              "unit": "g"
+            },
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros",
+            "source": 1,
+            "name": "Peso",
+            "value_id": "1151096",
+            "value_name": "185 g",
+            "values": [
+              {
+                "name": "185 g",
+                "struct": {
+                  "number": 185,
+                  "unit": "g"
+                },
+                "source": 1,
+                "id": "1151096"
+              }
+            ]
+          }
+        ],
+        "original_price": null,
+        "category_id": "MLA1055",
+        "official_store_id": null,
+        "domain_id": "MLA-CELLPHONES",
+        "catalog_product_id": "MLA19049553",
+        "tags": [
+          "extended_warranty_eligible",
+          "good_quality_picture",
+          "good_quality_thumbnail",
+          "standard_price_by_channel",
+          "immediate_payment",
+          "cart_eligible",
+          "shipping_guaranteed"
+        ],
+        "catalog_listing": true,
+        "use_thumbnail_id": true,
+        "offer_score": null,
+        "offer_share": null,
+        "match_score": null,
+        "winner_item_id": null,
+        "melicoin": null,
+        "discounts": null,
+        "order_backend": 4
+      },
+      {
+        "id": "MLA1130306961",
+        "site_id": "MLA",
+        "title": "Samsung Galaxy A22 128 Gb Black 4 Gb Ram",
+        "description": "Fotografía profesional en tu bolsillo Descubrí infinitas posibilidades para tus fotos con las 4 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados. Experiencia visual increíble Mirá tus series y películas favoritas con la mejor definición a través de su pantalla Super AMOLED de 6.4. Disfrutá de colores brillantes y detalles precisos en todos tus contenidos. Mayor rendimiento Su memoria RAM de 4 GB permite que tu smartphone funcione de manera fluida y sin demoras al realizar distintas tareas, jugar o navegar. Desbloqueo facial y dactilar Máxima seguridad para que solo vos puedas acceder al equipo. Podrás elegir entre el sensor de huella dactilar para habilitar el teléfono en un toque, o el reconocimiento facial que permite un desbloqueo hasta un 30% más rápido. Batería de duración superior ¡Desenchufate! Con la súper batería de 5000 mAh tendrás energía por mucho más tiempo para jugar, ver series o trabajar sin necesidad de realizar recargas.",
+        "seller": {
+          "id": 192769857,
+          "permalink": "http://perfil.mercadolibre.com.ar/NOVOGAR",
+          "registration_date": "2015-09-18T09:17:00.000-04:00",
+          "car_dealer": false,
+          "real_estate_agency": false,
+          "tags": [
+            "normal",
+            "credits_profile",
+            "eshop",
+            "medium_seller_advanced",
+            "mshops",
+            "messages_as_seller"
+          ],
+          "eshop": {
+            "seller": 192769857,
+            "eshop_rubro": {
+              "category_id": "MLA5726",
+              "name": "Electrodomésticos y Aires Ac.",
+              "id": "MLA5726"
+            },
+            "eshop_id": 209977,
+            "nick_name": "NOVOGAR",
+            "site_id": "MLA",
+            "eshop_logo_url": "http://http2.mlstatic.com/eshops-logo/192769857v660c95.png",
+            "eshop_status_id": 1,
+            "eshop_experience": 1970,
+            "eshop_locations": [
+              {
+                "country": {
+                  "id": "AR"
+                },
+                "city": {
+                  "id": "TUxBQ1JPUzg1Yjg3"
+                },
+                "neighborhood": {
+                  "id": null
+                },
+                "state": {
+                  "id": "AR-S"
+                }
+              },
+              {
+                "country": {
+                  "id": "AR"
+                },
+                "city": {
+                  "id": "TUxBQ1NBTjU4NmU3"
+                },
+                "neighborhood": {
+                  "id": null
+                },
+                "state": {
+                  "id": "AR-S"
+                }
+              }
+            ]
+          },
+          "seller_reputation": {
+            "power_seller_status": "platinum",
+            "level_id": "5_green",
+            "metrics": {
+              "cancellations": {
+                "period": "60 days",
+                "rate": 0.0108,
+                "value": 74
+              },
+              "claims": {
+                "period": "60 days",
+                "rate": 0.0169,
+                "value": 115
+              },
+              "delayed_handling_time": {
+                "period": "60 days",
+                "rate": 0.0348,
+                "value": 190
+              },
+              "sales": {
+                "period": "60 days",
+                "completed": 6062
+              }
+            },
+            "transactions": {
+              "canceled": 2328,
+              "period": "historic",
+              "total": 23377,
+              "ratings": {
+                "negative": 0.07,
+                "neutral": 0.04,
+                "positive": 0.89
+              },
+              "completed": 21049
+            }
+          }
+        },
+        "price": 92899,
+        "prices": {
+          "id": "MLA1130306961",
+          "prices": [
+            {
+              "id": "9",
+              "type": "standard",
+              "amount": 92899,
+              "regular_amount": null,
+              "currency_id": "ARS",
+              "last_updated": "2022-07-04T20:06:12Z",
+              "conditions": {
+                "context_restrictions": [
+                ],
+                "start_time": null,
+                "end_time": null,
+                "eligible": true
+              },
+              "exchange_rate_context": "DEFAULT",
+              "metadata": {
+              }
+            }
+          ],
+          "presentation": {
+            "display_currency": "ARS"
+          },
+          "payment_method_prices": [
+          ],
+          "reference_prices": [
+            {
+              "id": "3",
+              "type": "min_standard",
+              "conditions": {
+                "context_restrictions": [
+                  "channel_marketplace"
+                ],
+                "start_time": null,
+                "end_time": null,
+                "eligible": true
+              },
+              "amount": 64999,
+              "currency_id": "ARS",
+              "exchange_rate_context": "DEFAULT",
+              "tags": [
+              ],
+              "last_updated": "2022-04-06T22:56:23Z"
+            }
+          ],
+          "purchase_discounts": [
+          ]
+        },
+        "sale_price": null,
+        "currency_id": "ARS",
+        "available_quantity": 1,
+        "sold_quantity": 1,
+        "buying_mode": "buy_it_now",
+        "listing_type_id": "gold_special",
+        "stop_time": "2042-03-27T04:00:00.000Z",
+        "condition": "new",
+        "permalink": "https://www.mercadolibre.com.ar/samsung-galaxy-a22-128-gb-black-4-gb-ram/p/MLA18329756",
+        "thumbnail": "http://http2.mlstatic.com/D_774406-MLA47777566692_102021-I.jpg",
+        "thumbnail_id": "774406-MLA47777566692_102021",
+        "accepts_mercadopago": true,
+        "installments": {
+          "quantity": 12,
+          "amount": 13173.85,
+          "rate": 70.17,
+          "currency_id": "ARS"
+        },
+        "address": {
+          "state_id": "AR-S",
+          "state_name": "Santa Fe",
+          "city_id": "TUxBQ1JPUzg1Yjg3",
+          "city_name": "Rosario"
+        },
+        "shipping": {
+          "free_shipping": true,
+          "mode": "me2",
+          "tags": [
+            "mandatory_free_shipping"
+          ],
+          "logistic_type": "cross_docking",
+          "store_pick_up": false
+        },
+        "seller_address": {
+          "id": "",
+          "comment": "",
+          "address_line": "",
+          "zip_code": "",
+          "country": {
+            "id": "AR",
+            "name": "Argentina"
+          },
+          "state": {
+            "id": "AR-S",
+            "name": "Santa Fe"
+          },
+          "city": {
+            "id": "TUxBQ1JPUzg1Yjg3",
+            "name": "Rosario"
+          },
+          "latitude": "",
+          "longitude": ""
+        },
+        "attributes": [
+          {
+            "id": "BRAND",
+            "value_id": "206",
+            "value_name": "Samsung",
+            "values": [
+              {
+                "struct": null,
+                "source": 1,
+                "id": "206",
+                "name": "Samsung"
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros",
+            "name": "Marca",
+            "value_struct": null,
+            "source": 1
+          },
+          {
+            "value_id": "8678038",
+            "value_name": "Mali-G52 MC2",
+            "attribute_group_id": "OTHERS",
+            "source": 1,
+            "id": "GPU_MODEL",
+            "name": "Modelo de GPU",
+            "value_struct": null,
+            "values": [
+              {
+                "source": 1,
+                "id": "8678038",
+                "name": "Mali-G52 MC2",
+                "struct": null
+              }
+            ],
+            "attribute_group_name": "Otros"
+          },
+          {
+            "id": "ITEM_CONDITION",
+            "name": "Condición del ítem",
+            "values": [
+              {
+                "id": "2230284",
+                "name": "Nuevo",
+                "struct": null,
+                "source": 6808261514773724
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "value_id": "2230284",
+            "value_name": "Nuevo",
+            "value_struct": null,
+            "attribute_group_name": "Otros",
+            "source": 6808261514773724
+          },
+          {
+            "id": "LINE",
+            "value_id": "322977",
+            "value_struct": null,
+            "values": [
+              {
+                "name": "Galaxy A",
+                "struct": null,
+                "source": 1,
+                "id": "322977"
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "name": "Línea",
+            "value_name": "Galaxy A",
+            "attribute_group_name": "Otros",
+            "source": 1
+          },
+          {
+            "value_struct": null,
+            "values": [
+              {
+                "source": 1,
+                "id": "3376876",
+                "name": "A22",
+                "struct": null
+              }
+            ],
+            "id": "MODEL",
+            "name": "Modelo",
+            "value_id": "3376876",
+            "value_name": "A22",
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros",
+            "source": 1
+          },
+          {
+            "values": [
+              {
+                "id": "8814919",
+                "name": "MediaTek Helio G80",
+                "struct": null,
+                "source": 1
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros",
+            "source": 1,
+            "id": "PROCESSOR_MODEL",
+            "name": "Modelo del procesador",
+            "value_id": "8814919",
+            "value_name": "MediaTek Helio G80",
+            "value_struct": null
+          },
+          {
+            "attribute_group_id": "OTHERS",
+            "source": 1,
+            "id": "WEIGHT",
+            "name": "Peso",
+            "values": [
+              {
+                "name": "186 g",
+                "struct": {
+                  "number": 186,
+                  "unit": "g"
+                },
+                "source": 1,
+                "id": "461995"
+              }
+            ],
+            "attribute_group_name": "Otros",
+            "value_id": "461995",
+            "value_name": "186 g",
+            "value_struct": {
+              "number": 186,
+              "unit": "g"
+            }
+          }
+        ],
+        "original_price": null,
+        "category_id": "MLA1055",
+        "official_store_id": null,
+        "domain_id": "MLA-CELLPHONES",
+        "catalog_product_id": "MLA18329756",
+        "tags": [
+          "extended_warranty_eligible",
+          "good_quality_picture",
+          "good_quality_thumbnail",
+          "immediate_payment",
+          "cart_eligible"
+        ],
+        "catalog_listing": true,
+        "use_thumbnail_id": true,
+        "offer_score": null,
+        "offer_share": null,
+        "match_score": null,
+        "winner_item_id": null,
+        "melicoin": null,
+        "discounts": null,
+        "order_backend": 5
+      },
+      {
+        "id": "MLA918474630",
+        "site_id": "MLA",
+        "title": "Samsung Galaxy A32 128 Gb Awesome Black 4 Gb Ram",
+        "description": "Fotografía profesional en tu bolsillo Descubrí infinitas posibilidades para tus fotos con las 4 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados. Experiencia visual increíble Mirá tus series y películas favoritas con la mejor definición a través de su pantalla Super AMOLED de 6.4. Disfrutá de colores brillantes y detalles precisos en todos tus contenidos. Mayor rendimiento Su memoria RAM de 4 GB permite que tu smartphone funcione de manera fluida y sin demoras al realizar distintas tareas, jugar o navegar. Desbloqueo veloz con tu huella dactilar Con el sensor de huella dactilar, el acceso es seguro y podrás desbloquearlo automáticamente con un toque. Batería de duración superior ¡Desenchufate! Con la súper batería de 5000 mAh tendrás energía por mucho más tiempo para jugar, ver series o trabajar sin necesidad de realizar recargas.",
+        "seller": {
+          "id": 608846165,
+          "permalink": "http://perfil.mercadolibre.com.ar/MERCADOLIBRE+ELECTRONICA_AR",
+          "registration_date": "2020-07-13T13:21:30.000-04:00",
+          "car_dealer": false,
+          "real_estate_agency": false,
+          "tags": [
+            "brand",
+            "large_seller",
+            "credits_profile",
+            "messages_as_seller"
+          ],
+          "seller_reputation": {
+            "power_seller_status": "platinum",
+            "level_id": "5_green",
+            "metrics": {
+              "cancellations": {
+                "period": "60 days",
+                "rate": 0,
+                "value": 0
+              },
+              "claims": {
+                "period": "60 days",
+                "rate": 0.008,
+                "value": 1370
+              },
+              "delayed_handling_time": {
+                "period": "60 days",
+                "rate": 0,
+                "value": 0
+              },
+              "sales": {
+                "period": "60 days",
+                "completed": 162367
+              }
+            },
+            "transactions": {
+              "canceled": 43390,
+              "period": "historic",
+              "total": 822628,
+              "ratings": {
+                "negative": 0.06,
+                "neutral": 0.01,
+                "positive": 0.93
+              },
+              "completed": 779238
+            }
+          }
+        },
+        "price": 63999,
+        "prices": {
+          "id": "MLA918474630",
+          "prices": [
+            {
+              "id": "353",
+              "type": "standard",
+              "amount": 63999,
+              "regular_amount": null,
+              "currency_id": "ARS",
+              "last_updated": "2022-07-04T13:17:45Z",
+              "conditions": {
+                "context_restrictions": [
+                ],
+                "start_time": null,
+                "end_time": null,
+                "eligible": true
+              },
+              "exchange_rate_context": "DEFAULT",
+              "metadata": {
+              }
+            }
+          ],
+          "presentation": {
+            "display_currency": "ARS"
+          },
+          "payment_method_prices": [
+          ],
+          "reference_prices": [
+            {
+              "id": "351",
+              "type": "min_standard",
+              "conditions": {
+                "context_restrictions": [
+                  "channel_marketplace"
+                ],
+                "start_time": null,
+                "end_time": null,
+                "eligible": true
+              },
+              "amount": 49999,
+              "currency_id": "ARS",
+              "exchange_rate_context": "DEFAULT",
+              "tags": [
+              ],
+              "last_updated": "2022-07-04T04:12:01Z"
+            },
+            {
+              "id": "352",
+              "type": "was",
+              "conditions": {
+                "context_restrictions": [
+                  "channel_marketplace"
+                ],
+                "start_time": "2022-07-04T04:12:01Z",
+                "end_time": "2022-07-11T04:12:01Z",
+                "eligible": true
+              },
+              "amount": 58999,
+              "currency_id": "ARS",
+              "exchange_rate_context": "DEFAULT",
+              "tags": [
+              ],
+              "last_updated": "2022-07-04T04:12:01Z"
+            }
+          ],
+          "purchase_discounts": [
+          ]
+        },
+        "sale_price": null,
+        "currency_id": "ARS",
+        "available_quantity": 1986,
+        "sold_quantity": 14796,
+        "buying_mode": "buy_it_now",
+        "listing_type_id": "gold_pro",
+        "stop_time": "2042-06-30T13:33:53.000Z",
+        "condition": "new",
+        "permalink": "https://www.mercadolibre.com.ar/samsung-galaxy-a32-128-gb-awesome-black-4-gb-ram/p/MLA17706115",
+        "thumbnail": "http://http2.mlstatic.com/D_922219-MLA48428094384_122021-I.jpg",
+        "thumbnail_id": "922219-MLA48428094384_122021",
+        "accepts_mercadopago": true,
+        "installments": {
+          "quantity": 3,
+          "amount": 21333,
+          "rate": 0,
+          "currency_id": "ARS"
+        },
+        "address": {
+          "state_id": "AR-B",
+          "state_name": "Buenos Aires",
+          "city_id": null,
+          "city_name": "Villa Celina"
+        },
+        "shipping": {
+          "free_shipping": true,
+          "mode": "me2",
+          "tags": [
+            "fulfillment",
+            "mandatory_free_shipping"
+          ],
+          "logistic_type": "fulfillment",
+          "store_pick_up": false
+        },
+        "seller_address": {
+          "id": "",
+          "comment": "",
+          "address_line": "",
+          "zip_code": "",
+          "country": {
+            "id": "AR",
+            "name": "Argentina"
+          },
+          "state": {
+            "id": "AR-B",
+            "name": "Buenos Aires"
+          },
+          "city": {
+            "id": null,
+            "name": "Villa Celina"
+          },
+          "latitude": "",
+          "longitude": ""
+        },
+        "attributes": [
+          {
+            "id": "BRAND",
+            "name": "Marca",
+            "value_name": "Samsung",
+            "attribute_group_name": "Otros",
+            "source": 1,
+            "value_id": "206",
+            "value_struct": null,
+            "values": [
+              {
+                "id": "206",
+                "name": "Samsung",
+                "struct": null,
+                "source": 1
+              }
+            ],
+            "attribute_group_id": "OTHERS"
+          },
+          {
+            "value_struct": null,
+            "attribute_group_name": "Otros",
+            "value_id": "8678038",
+            "value_name": "Mali-G52 MC2",
+            "values": [
+              {
+                "id": "8678038",
+                "name": "Mali-G52 MC2",
+                "struct": null,
+                "source": 1
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "source": 1,
+            "id": "GPU_MODEL",
+            "name": "Modelo de GPU"
+          },
+          {
+            "id": "ITEM_CONDITION",
+            "name": "Condición del ítem",
+            "value_id": "2230284",
+            "source": 1,
+            "value_name": "Nuevo",
+            "value_struct": null,
+            "values": [
+              {
+                "name": "Nuevo",
+                "struct": null,
+                "source": 1,
+                "id": "2230284"
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros"
+          },
+          {
+            "values": [
+              {
+                "name": "Galaxy A",
+                "struct": null,
+                "source": 1,
+                "id": "322977"
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "source": 1,
+            "id": "LINE",
+            "name": "Línea",
+            "value_id": "322977",
+            "value_name": "Galaxy A",
+            "value_struct": null,
+            "attribute_group_name": "Otros"
+          },
+          {
+            "id": "MODEL",
+            "name": "Modelo",
+            "value_name": "A32",
+            "attribute_group_id": "OTHERS",
+            "attribute_group_name": "Otros",
+            "value_id": "3477305",
+            "value_struct": null,
+            "values": [
+              {
+                "name": "A32",
+                "struct": null,
+                "source": 1,
+                "id": "3477305"
+              }
+            ],
+            "source": 1
+          },
+          {
+            "value_name": "5.4 cm",
+            "value_struct": {
+              "number": 5.4,
+              "unit": "cm"
+            },
+            "values": [
+              {
+                "id": null,
+                "name": "5.4 cm",
+                "struct": {
+                  "number": 5.4,
+                  "unit": "cm"
+                },
+                "source": 1
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "source": 1,
+            "id": "PACKAGE_LENGTH",
+            "name": "Largo del paquete",
+            "value_id": null,
+            "attribute_group_name": "Otros"
+          },
+          {
+            "attribute_group_id": "OTHERS",
+            "name": "Peso del paquete",
+            "value_struct": {
+              "unit": "g",
+              "number": 320
+            },
+            "values": [
+              {
+                "id": null,
+                "name": "320 g",
+                "struct": {
+                  "number": 320,
+                  "unit": "g"
+                },
+                "source": 1
+              }
+            ],
+            "attribute_group_name": "Otros",
+            "source": 1,
+            "id": "PACKAGE_WEIGHT",
+            "value_id": null,
+            "value_name": "320 g"
+          },
+          {
+            "attribute_group_name": "Otros",
+            "source": 1,
+            "id": "PROCESSOR_MODEL",
+            "name": "Modelo del procesador",
+            "value_struct": null,
+            "values": [
+              {
+                "id": "8814919",
+                "name": "MediaTek Helio G80",
+                "struct": null,
+                "source": 1
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "value_id": "8814919",
+            "value_name": "MediaTek Helio G80"
+          },
+          {
+            "id": "WEIGHT",
+            "name": "Peso",
+            "value_id": "6780741",
+            "value_name": "184 g",
+            "values": [
+              {
+                "id": "6780741",
+                "name": "184 g",
+                "struct": {
+                  "number": 184,
+                  "unit": "g"
+                },
+                "source": 1
+              }
+            ],
+            "attribute_group_id": "OTHERS",
+            "value_struct": {
+              "number": 184,
+              "unit": "g"
+            },
+            "attribute_group_name": "Otros",
+            "source": 1
+          }
+        ],
+        "differential_pricing": {
+          "id": 35713268
+        },
+        "original_price": null,
+        "category_id": "MLA1055",
+        "official_store_id": 1550,
+        "domain_id": "MLA-CELLPHONES",
+        "catalog_product_id": "MLA17706115",
+        "tags": [
+          "good_quality_picture",
+          "good_quality_thumbnail",
+          "3x_campaign",
+          "extended_warranty_eligible",
+          "immediate_payment",
+          "shipping_guaranteed"
+        ],
+        "catalog_listing": true,
+        "use_thumbnail_id": true,
+        "offer_score": null,
+        "offer_share": null,
+        "match_score": null,
+        "winner_item_id": null,
+        "melicoin": null,
+        "discounts": null,
+        "order_backend": 6
+      }
+]
