@@ -67,6 +67,7 @@ describe('La view de ProductList', () => {
             const button = screen.getAllByRole('button')[0];
             fireEvent.click(button);
         });
+
         const calls = mockConsole.mock.calls;
         expect(calls[calls.length - 1][0][0]).toEqual(expect.objectContaining({
             product: mockProduct,

@@ -2,7 +2,7 @@
 
 exports[`La view de ProductList 1) Renderiza 1`] = `
 <DocumentFragment>
-  <div
+  <section
     class="demo"
   >
     <h1>
@@ -286,6 +286,6 @@ exports[`La view de ProductList 1) Renderiza 1`] = `
         </div>
       </li>
     </ol>
-  </div>
+  </section>
 </DocumentFragment>
 `;

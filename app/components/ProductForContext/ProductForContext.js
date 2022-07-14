@@ -30,7 +30,7 @@ const ProductForContext = ({ i18n, id, title, thumbnail, price, description }) =
                 }
                 return p;
             }));
-            setQuantity('')
+            setQuantity('');
         } else {
             restClient.get('/getProduct', {
                 params: {
