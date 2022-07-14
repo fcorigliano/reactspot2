@@ -37,7 +37,7 @@ function View(props) {
   }, []);
   
   return (
-    <div className="demo">
+    <section className="demo">
 
       <Head>
         <title>
@@ -80,7 +80,7 @@ function View(props) {
             : <h4>{i18n.gettext('No se encontraron productos.')}</h4>
         }
       </ol>
-    </div>
+    </section>
   );
 }
 

@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`La view de ProductList 1) Renderiza 1`] = `
+<DocumentFragment>
+  <section
+    class="demo"
+  >
+    <h1>
+      products
+    </h1>
+    <nav>
+      <ul>
+        <li>
+          <button
+            disabled=""
+          >
+            Anterior
+          </button>
+        </li>
+        <li>
+          <button>
+            Siguiente
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <ol>
+      <li
+        class="card"
+      >
+        <figure
+          class="img"
+        >
+          <img
+            alt="Samsung Galaxy A03 128 Gb Negro 4 Gb Ram"
+            class=""
+            decoding="async"
+            src="http://http2.mlstatic.com/D_737913-MLA49433851234_032022-I.jpg"
+          />
+        </figure>
+        <div
+          class="info-products"
+        >
+          <h4
+            class="title-product"
+          >
+            Samsung Galaxy A03 128 Gb Negro 4 Gb Ram 
+          </h4>
+          <h3
+            class="price"
+          >
+            $38999
+          </h3>
+          <form
+            id="MLA1131686227"
+          >
+            <label>
+              Cantidad: 
+            </label>
+            <input
+              type="number"
+            />
+            <button
+              type="submit"
+            >
+              Agregar al carrito
+            </button>
+          </form>
+          <p>
+            Doble cámara y más detalles Sus 2 cámaras traseras de 48 Mpx/2 Mpx te permitirán tomar imágenes con más detalles y lograr efectos únicos como el famoso modo retrato de poca profundidad de campo. Además, el dispositivo cuenta con cámara frontal de 5 Mpx para que puedas sacarte divertidas selfies o hacer videollamadas. Más para ver Con su pantalla PLS de 6.5, disfrutá de colores intensos y mayor nitidez en todos tus contenidos. Mayor rendimiento Su memoria RAM de 4 GB permite que tu smartphone funcione de manera fluida y sin demoras al realizar distintas tareas, jugar o navegar. Batería de duración superior ¡Desenchufate! Con la súper batería de 5000 mAh tendrás energía por mucho más tiempo para jugar, ver series o trabajar sin necesidad de realizar recargas. Gran capacidad de almacenamiento Con su memoria interna de 128 GB podrás almacenar archivos y aplicaciones de gran tamaño sin necesidad de subirlos a la nube y aprovechar tus momentos sin conexión para darles el máximo uso.
+          </p>
+        </div>
+      </li>
+      <li
+        class="card"
+      >
+        <figure
+          class="img"
+        >
+          <img
+            alt="Motorola Edge 20 Lite 128 Gb Gris 6 Gb Ram"
+            class=""
+            decoding="async"
+            src="http://http2.mlstatic.com/D_833619-MLA48233725917_112021-I.jpg"
+          />
+        </figure>
+        <div
+          class="info-products"
+        >
+          <h4
+            class="title-product"
+          >
+            Motorola Edge 20 Lite 128 Gb Gris 6 Gb Ram 
+          </h4>
+          <h3
+            class="price"
+          >
+            $69999
+          </h3>
+          <form
+            id="MLA1113718634"
+          >
+            <label>
+              Cantidad: 
+            </label>
+            <input
+              type="number"
+            />
+            <button
+              type="submit"
+            >
+              Agregar al carrito
+            </button>
+          </form>
+          <p>
+            Fotografía profesional en tu bolsillo Descubrí infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados. Además, el dispositivo cuenta con cámara frontal de 32 Mpx para que puedas sacarte divertidas selfies o hacer videollamadas. Capacidad y eficiencia Con su potente procesador y memoria RAM de 6 GB tu equipo alcanzará un alto rendimiento con gran velocidad de transmisión de contenidos y ejecutará múltiples aplicaciones a la vez sin demoras. Desbloqueo facial y dactilar Máxima seguridad para que solo vos puedas acceder al equipo. Podrás elegir entre el sensor de huella dactilar para habilitar el teléfono en un toque, o el reconocimiento facial que permite un desbloqueo hasta un 30% más rápido. Batería de duración superior ¡Desenchufate! Con la súper batería de 5000 mAh tendrás energía por mucho más tiempo para jugar, ver series o trabajar sin necesidad de realizar recargas.
+          </p>
+        </div>
+      </li>
+    </ol>
+  </section>
+</DocumentFragment>
+`;

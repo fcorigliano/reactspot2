@@ -23,7 +23,7 @@ function View(props) {
   const [comments, setComments] = React.useState([]);
 
   return (
-    <div className="demo">
+    <section className="demo">
       {/* <MeliGA
         section="universal"
         page="test"
@@ -55,7 +55,7 @@ function View(props) {
 
       <CommentList i18n={i18n} comments={comments}/>
 
-    </div>
+    </section>
   );
 }
 

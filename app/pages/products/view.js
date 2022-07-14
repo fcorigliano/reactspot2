@@ -6,6 +6,7 @@ const Script = require('nordic/script');
 const Style = require('nordic/style');
 const serialize = require('serialize-javascript');
 const { injectI18n } = require('nordic/i18n');
+const Pagination = require('../../components/Pagination');
 const Product = require('../../components/Product');
 const restClient = require('nordic/restclient')({ 
   timeout: 10000, 
@@ -21,41 +22,43 @@ function View(props) {
   };
 
   const [products, setProducts] = useState([]);
-  const [selectedProducts, setSelectedProducts] = useState([]);
+  const [limit, setLimit] = useState(10);
 
   useEffect(() => {
       restClient.get('/getProducts', {
         params: {
           name: 'celular',
+          limit
         }
       })
       .then(data => {
         setProducts(data.data);
       });    
   }, []);
-
-  console.log(selectedProducts);
   
   return (
     <section className="demo">
 
       <Head>
         <title>
-          producList Page
+          products Page
         </title>
       </Head>
 
-      <Style href="productList.css" />
+      <Style href="products.css" />
       <Script>
         {`
            window.__PRELOADED_STATE__ = ${serialize(preloadedState, { isJSON: true })};
-           console.log('Product List page is loaded!');
+           console.log('Products page is loaded!');
          `}
       </Script>
       <Script src="vendor.js" />
-      <Script src="productList.js" />
+      <Script src="products.js" />
 
-      <h1>productList</h1>
+      <h1>products</h1>
+
+      <Pagination i18n={i18n} setProducts={setProducts} limit={limit}/>
+
       <ol>
         {
           products?.length
@@ -68,7 +71,6 @@ function View(props) {
                 thumbnail={p.thumbnail}
                 price={p.price}
                 description={p.description}
-                setSelectedProducts={setSelectedProducts}
               />
             ))
             : <h4>{i18n.gettext('No se encontraron productos.')}</h4>

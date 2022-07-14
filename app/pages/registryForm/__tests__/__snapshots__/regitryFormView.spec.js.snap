@@ -2,7 +2,7 @@
 
 exports[`La view de Registry Form 1) Renderiza 1`] = `
 <DocumentFragment>
-  <div
+  <section
     class="demo"
   >
     <form
@@ -33,6 +33,6 @@ exports[`La view de Registry Form 1) Renderiza 1`] = `
         </label>
       </div>
     </form>
-  </div>
+  </section>
 </DocumentFragment>
 `;

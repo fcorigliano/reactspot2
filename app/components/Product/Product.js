@@ -1,5 +1,5 @@
 const React = require('react');
-const { useRef, useContext } = React;
+const { useRef } = React;
 const PropTypes = require('prop-types');
 const Image = require('nordic/image');
 const restclient = require('nordic/restclient')({ 

@@ -19,6 +19,7 @@ const formsRoute = require('../pages/forms');
 const productListRoute = require('../pages/productList');
 const productsContextRoute = require('../pages/productsContext');
 const registryFormRoute = require('../pages/registryForm');
+const productsRoute = require('../pages/products');
 
 /**
  * Use global middlewares
@@ -39,6 +40,7 @@ router.use('/forms', formsRoute);
 router.use('/productList', productListRoute);
 router.use('/productsContext', productsContextRoute);
 router.use('/registryForm', registryFormRoute);
+router.use('/products', productsRoute)
 
 /**
  * Expose router

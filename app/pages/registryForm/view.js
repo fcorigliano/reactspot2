@@ -64,7 +64,7 @@ function View(props) {
 	};
 
 	return (
-		<div className="demo">
+		<section className="demo">
 
 			<Head>
 				<title>
@@ -121,7 +121,7 @@ function View(props) {
 				</div>
 			</form>
 
-		</div>
+		</section>
 	);
 }
 
