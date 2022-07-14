@@ -64,7 +64,6 @@ describe('La view de ProductsContext', () => {
             const button = screen.getAllByRole('button')[0];
             fireEvent.click(button);
         });
-        screen.debug();
         const cartProduct = screen.getByTestId(mockProduct.id)
         const quantity = within(cartProduct).getByText('5');
         expect(cartProduct).toBeInTheDocument();
