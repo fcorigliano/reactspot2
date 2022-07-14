@@ -8,10 +8,10 @@ describe('La view de la page Forms', () => {
 
     beforeEach(() => {
         component = render(<FormsView i18n={i18n}/>);
-    })
+    });
 
     it('1) Renderiza', () => {
         const { asFragment } = component;
         expect(asFragment()).toMatchSnapshot();
-    })
-})
+    });
+});
