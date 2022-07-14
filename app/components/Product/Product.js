@@ -40,11 +40,20 @@ const Product = ({ i18n, id, title, thumbnail, price, description, setSelectedPr
             <div className="info-products">
                 <h4 className='title-product'>{i18n.gettext(title)} </h4>
                 <h3 className='price'>${price}</h3>
-                <form id={id} onSubmit={e => handleSubmit(e)}>
-                    <label>Cantidad: </label>
-                    <input type="number" ref={quantityRef}/>
-                    <button type="submit">{i18n.gettext('Agregar al carrito')}</button>
-                </form>
+                {/* Este form se renderiza dependiendo de si nos envían
+                la función seteadora, porque se está implementando en
+                2 views distintas, una de las cuales no lo necesita
+                (la que no se lo envía). */}
+                {
+                    setSelectedProducts 
+                    ?   <form id={id} onSubmit={e => handleSubmit(e)}>
+                            <label>Cantidad: </label>
+                            <input type="number" ref={quantityRef}/>
+                            <button type="submit">{i18n.gettext('Agregar al carrito')}</button>
+                        </form>
+                    : null
+                
+                }
                 <p>{i18n.gettext(description)}</p>
             </div>
         </li>

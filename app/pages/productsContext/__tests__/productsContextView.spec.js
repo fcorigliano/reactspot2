@@ -4,7 +4,7 @@ const { CartProvider } = require('../../../context/CartContext');
 const { render, screen, fireEvent, act, within } = require('@testing-library/react');
 const restclient = require('nordic/restclient');
 const mockProducts = require('./sample.json');
-const mockProduct = require('./sample2.json')
+const mockProduct = require('./sample2.json');
 
 jest.mock('nordic/restclient', () => () => ({
     get: jest.fn((url) => {
@@ -81,8 +81,9 @@ describe('La view de ProductsContext', () => {
         await act(async() => {
             fireEvent.click(button);
         });
-        const cartProduct = screen.getByTestId(mockProduct.id)
+        const cartProduct = screen.getByTestId(mockProduct.id);
         const quantity = within(cartProduct).getByText('5');
+        screen.debug()
         expect(cartProduct).toBeInTheDocument();
         expect(quantity).toBeInTheDocument();
     });

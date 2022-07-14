@@ -1,5 +1,5 @@
 const React = require('react');
-const { useState, useEffect } = require('react');
+const { useState, useEffect, useRef } = require('react');
 const PropTypes = require('prop-types');
 const restclient = require('nordic/restclient')({ 
     timeout: 10000, 
@@ -8,6 +8,7 @@ const restclient = require('nordic/restclient')({
 
 const Pagination = ({ i18n, setProducts, limit }) => {
     const [offset, setOffset] = useState(0);
+    const isMounted = useRef(false);
 
     const handlePrev = () => {
         if (offset > 0) {
@@ -16,20 +17,22 @@ const Pagination = ({ i18n, setProducts, limit }) => {
     }
 
     const handleNext = () => {
-        setOffset(offset => offset + limit)
+        setOffset(offset => offset + limit);
     }
     
     useEffect(() => {
-        // restclient.get('/getProducts?hola=si&chau=no&offsets=12', {
-        restclient.get('/getProducts', {
-            params: {
-                name: 'celular',
-                offset
-            }
-        })
-            .then(products => {
-                setProducts(products.data);
+        if(isMounted.current) {
+            restclient.get('/getProducts', {
+                params: {
+                    name: 'celular',
+                    offset
+                }
             })
+                .then(products => {
+                    setProducts(products.data);
+                })
+        }
+        isMounted.current = true;
     }, [offset]);
     
     return (
@@ -49,7 +52,8 @@ const Pagination = ({ i18n, setProducts, limit }) => {
 Pagination.propTypes = {
     i18n: PropTypes.shape({
         gettext: PropTypes.func.isRequired,
-      }).isRequired
+      }).isRequired,
+    setProducts: PropTypes.func
 }
 
 module.exports = Pagination;

@@ -7,9 +7,16 @@ const I18nProvider = require('nordic/i18n/I18nProvider');
 const ImageProvider = require('nordic/image/provider');
 const ProductsView = require('../pages/products/view');
 
+/**
+ * Si vamos a implementar SSR en el primer 
+ * renderizado, vamos a tener que extraer
+ * del preloadedState la prop `products` y
+ * pasársela a la view en el hydrate().
+ */
+
 const {
   imagesPrefix,
-  translations
+  translations,
 } = window.__PRELOADED_STATE__;
 
 const i18n = new I18n({ translations })

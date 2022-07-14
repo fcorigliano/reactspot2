@@ -13,6 +13,15 @@ const restClient = require('nordic/restclient')({
   baseURL: '/api' 
 });
 
+/**
+ * En caso de querer implementar SSR en el primer renderizado, 
+ * hay que comentar el useEffect, recibir products por props 
+ * y enviarlo a través del preloadedState, inicializar el
+ * estado del array de productos con este valor por defecto y
+ * cambiarle el nombre, así como cambiarle el nombre cuando se
+ * lo pasamos a cada componente.
+ */
+
 function View(props) {
   const { i18n, translations, imagesPrefix } = props;
   const preloadedState = {
