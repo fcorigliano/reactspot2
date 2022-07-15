@@ -4,22 +4,10 @@ const { render, screen, fireEvent, act } = require('@testing-library/react');
 const restclient = require('nordic/restclient');
 const mockProducts = require('./sample.json');
 
-/**
- * En caso de querer implementar testing para el caso de 
- * que el primer renderizado sea desde el server, lo único
- * que habría que hacer es pasarle products como prop a 
- * ProductsView.
- * Por otro lado, hay varios async/await que sobrarían, pero
- * que estén presentes no rompe nada. 
- */
-
 jest.mock('nordic/restclient', () => () => ({
     get: jest.fn((url, params) => {
-        /**
-         * Lógica para contemplar el caso de que manden offset
-         * mediante la URL.
-         */
         let offset;
+
         url.split('?')[1]?.split('&').map(q => {
                 q = q.split('=');
                 if (q[0] == 'offset') {

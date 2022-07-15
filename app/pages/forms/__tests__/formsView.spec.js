@@ -55,7 +55,6 @@ describe('Forms View', () => {
 	
 	describe('3) Filter List',()=>{
 		it("El botón 'Borrar categoría' debería eliminar la categoría seleccionada",()=>{
-			// aca se contempla que se borre correctamente un solo input, deberiamos contemplar el caso que sean mas de uno?
 			const inputCategory = getByLabelText(/categoría/i);
 			
 			fireEvent.change(inputCategory, {target:{value: 'home'}});
