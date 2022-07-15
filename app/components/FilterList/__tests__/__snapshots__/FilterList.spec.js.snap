@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FilterList/> Renderiza correctamente 1`] = `
+<DocumentFragment>
+  <h1>
+    FilterList
+  </h1>
+  <p>
+    $0 - $0
+  </p>
+  <button>
+    Borrar precio
+  </button>
+</DocumentFragment>
+`;

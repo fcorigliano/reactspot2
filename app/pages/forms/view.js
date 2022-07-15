@@ -1,39 +1,42 @@
 const React = require('react');
+const { useState } = React;
 const PropTypes = require('prop-types');
 const Head = require('nordic/head');
-const MeliGA = require('nordic/analytics/meli-ga');
-const MelidataTrack = require('nordic/melidata/melidata-track');
 const Script = require('nordic/script');
 const Style = require('nordic/style');
 const serialize = require('serialize-javascript');
 const { injectI18n } = require('nordic/i18n');
 const AddFilter = require('../../components/AddFilter');
 const FilterList = require('../../components/FilterList');
-const AddComment = require('../../components/AddComment');
-const CommentList = require('../../components/CommentList');
+const Comment = require('../../components/Comment');
 
 function View(props) {
-  const { i18n, translations } = props;
+  const { i18n, translations} = props;
   const preloadedState = {
     i18n,
-    translations
+    translations,
   };
 
-  const [filters, setFilters] = React.useState([]);
-  const [comments, setComments] = React.useState([]);
+  const [price,setPrice] = useState({min:0,max:0});
+  const [category,setCategory]= useState([]);
+  const [userComment, setUserComment] = useState({name:'',comment:''});
+  const [showUserComment, setShowUserComment] = useState([]);
 
+  const handleInput =(e)=>{
+    const { name, value} = e.target;
+    setUserComment({...userComment,[name]:value});
+  }
+  const handleSubmit = (e)=>{
+    e.preventDefault();
+    setShowUserComment([...showUserComment,userComment])
+  }
+  // console.log(userComment);
   return (
-    <section className="demo">
-      {/* <MeliGA
-        section="universal"
-        page="test"
-      />
-
-      <MelidataTrack path="/form" event_data={{ form: 'data' }} /> */}
+    <>
 
       <Head>
         <title>
-          {i18n.gettext('Form Page')}
+          {i18n.gettext('Forms Page')}
         </title>
       </Head>
 
@@ -41,21 +44,18 @@ function View(props) {
       <Script>
         {`
           window.__PRELOADED_STATE__ = ${serialize(preloadedState, { isJSON: true })};
-          console.log('Form page is loaded!');
+          console.log('Forms page is loaded!');
         `}
       </Script>
       <Script src="vendor.js" />
       <Script src="forms.js" />
-
-      <AddFilter i18n={i18n} setFilters={setFilters}/>
-
-      <FilterList i18n={i18n} filters={filters} setFilters={setFilters}/>
-
-      <AddComment i18n={i18n} setComments={setComments} />
-
-      <CommentList i18n={i18n} comments={comments}/>
-
-    </section>
+      {/** Traer los componentes AddFilter y FilterList para que la View los renderice*/}
+      
+      <AddFilter i18n={i18n}price={price} setPrice={setPrice} category={category} setCategory={setCategory}/>
+      <FilterList i18n={i18n} price={price} setPrice={setPrice} category={category} setCategory={setCategory}/>
+      <Comment i18n={i18n} showUserComment={showUserComment} handleSubmit={handleSubmit} handleInput={handleInput}/>
+      
+      </>
   );
 }
 
@@ -63,11 +63,7 @@ View.propTypes = {
   i18n: PropTypes.shape({
     gettext: PropTypes.func.isRequired,
   }).isRequired,
-  translations: PropTypes.shape({})
-};
-
-View.defaultProps = {
-  translations: {}
+  translations: PropTypes.shape({}),
 };
 
 module.exports = injectI18n(View);

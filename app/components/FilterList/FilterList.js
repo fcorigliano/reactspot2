@@ -1,33 +1,35 @@
 const React = require('react');
-const PropTypes = require('prop-types');
 
-const FilterList = ({ i18n, filters, setFilters }) => {
+const FilterList = ({ category, setCategory, price ,setPrice, i18n}) => {
 
-  const handleDelete = (f) => {
-    setFilters(filters.filter(filter => filter !== f))
-  }
+	const deleteFilter = (name) => {
+		const filtered = category.filter(x => x !== name)
+		name == 'price' ?  
+			setPrice({min:0,max:0})
+		: setCategory(filtered)
+	}
+	return <>
+		<h1>{i18n.gettext('FilterList')}</h1>
+		{
+			category.length ? category.map(categoria => {
+				return (
+					<div key={categoria}>
+						<h3>{categoria}</h3>
+						<button onClick={() => deleteFilter(categoria)}>
+							{i18n.gettext('Borrar categoría')}
+						</button>
+					</div>
+				)
+			}) : null
+		}
+		<p>${price?.min} - ${price?.max}</p>
+		<button 
+			onClick={() => deleteFilter('price')}>
+			{i18n.gettext('Borrar precio')}
+		</button>
+	</>
+}
 
-  return (
-    <>
-        <h2>{i18n.gettext('Filtros')}</h2>
-        <ul>
-          {
-            filters.map((f, i) => (
-              <li key={i}>
-                <span>{i18n.gettext(f)}</span>
-                <button onClick={() => handleDelete(f)}>X</button>
-              </li>
-            ))
-          }
-        </ul>
-    </>
-  );
-};
 
-FilterList.propTypes = {
-  i18n: PropTypes.shape({
-    gettext: PropTypes.func.isRequired,
-  }).isRequired,
-};
 
 module.exports = FilterList;

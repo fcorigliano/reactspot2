@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Forms View <Forms/> 1`] = `
+exports[`<AddFilter/> Renderiza correctamente 1`] = `
 <DocumentFragment>
   <h1>
     AddFilter
@@ -53,31 +53,5 @@ exports[`Forms View <Forms/> 1`] = `
       agregar categoria
     </button>
   </form>
-  <h1>
-    FilterList
-  </h1>
-  <p>
-    $0 - $0
-  </p>
-  <button>
-    Borrar precio
-  </button>
-  <h2>
-    feedback
-  </h2>
-  <form>
-    <input
-      name="name"
-      placeholder="Tu nombre"
-    />
-    <textarea
-      name="comment"
-      placeholder="Comentario"
-    />
-    <input
-      type="submit"
-    />
-  </form>
-  <ol />
 </DocumentFragment>
 `;
