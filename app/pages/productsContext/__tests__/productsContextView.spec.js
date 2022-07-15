@@ -83,7 +83,6 @@ describe('La view de ProductsContext', () => {
         });
         const cartProduct = screen.getByTestId(mockProduct.id);
         const quantity = within(cartProduct).getByText('5');
-        screen.debug()
         expect(cartProduct).toBeInTheDocument();
         expect(quantity).toBeInTheDocument();
     });
