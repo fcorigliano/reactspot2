@@ -16,11 +16,7 @@ const path = require('path');
  */
 
 const entrypoints = {
-  forms: './app/client/forms.js',
-  productList: './app/client/productList.js',
-  productsContext: './app/client/productsContext.js',
-  registryForm: './app/client/registryForm.js',
-  products: './app/client/products'
+
 };
 
 const generateLegacyBundles = entryPoints => Object.keys(entryPoints).reduce((accumulator, entrypointName) => {

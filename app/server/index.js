@@ -15,11 +15,7 @@ require('../../mocks');
 /**
  * Routers
  */
-const formsRoute = require('../pages/forms');
-const productListRoute = require('../pages/productList');
-const productsContextRoute = require('../pages/productsContext');
-const registryFormRoute = require('../pages/registryForm');
-const productsRoute = require('../pages/products');
+
 
 /**
  * Use global middlewares
@@ -31,16 +27,11 @@ router.use(polyfillsMiddleware(config.polyfillLimits));
 /**
  * Redirect
  */
-router.get('/', (req, res) => res.redirect(`${config.ragnar.basePath}form`));
+// router.get('/', (req, res) => res.redirect(`${config.ragnar.basePath}forms`));
 
 /**
  * Mount routers
  */
-router.use('/forms', formsRoute);
-router.use('/productList', productListRoute);
-router.use('/productsContext', productsContextRoute);
-router.use('/registryForm', registryFormRoute);
-router.use('/products', productsRoute)
 
 /**
  * Expose router
