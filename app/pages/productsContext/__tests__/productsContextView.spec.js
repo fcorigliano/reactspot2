@@ -12,7 +12,7 @@ jest.mock('nordic/restclient', () => () => ({
             case '/getProducts':
                 return Promise.resolve({ data: mockProducts });
             case '/getProduct':
-                return Promise.resolve({ data: mockProduct })
+                return Promise.resolve({ data: mockProduct });
         }
     })
 }));
@@ -69,7 +69,7 @@ describe('La view de ProductsContext', () => {
             const button = screen.getAllByRole('button')[0];
             fireEvent.click(button);
         });
-        const cartProduct = screen.getByTestId(mockProduct.id)
+        const cartProduct = screen.getByTestId(mockProduct.id);
         const quantity = within(cartProduct).getByText('5');
         expect(cartProduct).toBeInTheDocument();
         expect(quantity).toBeInTheDocument();
