@@ -20,7 +20,7 @@ jest.mock('nordic/restclient', () => () => ({
 }));
 
 
-describe('La ruta getProducts', () => {
+describe('La ruta /getProducts', () => {
     let baseUrl = `/api/getProducts?domain_override=mercadolibre.com.ar&`;
 
     it('1) EJERCICIO 4 - Devuelve un array de productos con su descripción', async () => {
@@ -30,7 +30,7 @@ describe('La ruta getProducts', () => {
         expect(products).toHaveLength(1);
     });
 
-    it('2) Devuelve un array vacío si hubo un error', async() => {
+    it('2) Devuelve un array vacío si hubo un error o no se encontraron productos', async() => {
         const response = await request(api.app).get(`${baseUrl}name=celularLG`);
         const error = await JSON.parse(response.res.text);
         expect(error).toBeInstanceOf(Array);
