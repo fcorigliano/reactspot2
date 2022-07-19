@@ -51,6 +51,11 @@ describe('La view de ProductsContext', () => {
     })
 
     it('4) Renderiza un input y un botón para agregar cada producto al carrito', () => {
+        /**
+         * El role 'spinbutton' indica que el elemento es un input que 
+         * restringe su valor a un rango discreto de valores (type number
+         * en este caso).
+         */
         const inputs = screen.getAllByRole('spinbutton');
         const buttons = screen.getAllByRole('button');
         expect(inputs.length).toBeGreaterThanOrEqual(6);
