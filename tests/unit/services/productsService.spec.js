@@ -55,7 +55,7 @@ describe('El servicio productsService', () => {
     });
 
     describe('El método getProduct', () => {
-        it('4) Devuelve un producto con sus respectivas propiedades', async() => {
+        it('4) Devuelve un producto con sus respectivas propiedades', async () => {
             const product = await productsService.getProduct('MLA23432')
             expect(typeof product).toBe('object');
         });

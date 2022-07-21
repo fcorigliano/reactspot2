@@ -30,7 +30,7 @@ describe('La ruta /getProducts', () => {
         expect(products).toHaveLength(1);
     });
 
-    it('2) Devuelve un array vacío si hubo un error o no se encontraron productos', async() => {
+    it('2) Devuelve un array vacío si hubo un error o no se encontraron productos', async () => {
         const response = await request(api.app).get(`${baseUrl}name=celularLG`);
         const error = await JSON.parse(response.res.text);
         expect(error).toBeInstanceOf(Array);

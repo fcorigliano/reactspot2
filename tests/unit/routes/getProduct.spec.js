@@ -17,7 +17,7 @@ jest.mock('nordic/restclient', () => () => ({
 describe('La ruta /getProduct', () => {
     let baseUrl = `/api/getProduct?domain_override=mercadolibre.com.ar&`;
 
-    it('1) Devuelve un objeto con la información del producto requerido', async() => {
+    it('1) Devuelve un objeto con la información del producto requerido', async () => {
         const response = await request(api.app).get(`${baseUrl}id=MLA34547099`);
         const product = JSON.parse(response.res.text);
         expect(typeof product).toBe('object');

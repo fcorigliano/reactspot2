@@ -21,20 +21,20 @@ describe('La view de ProductList', () => {
     const i18n = { gettext: text => text};
     const mockConsole = jest.spyOn(console, "log");
 
-    beforeEach(async() => {
-        await act(async() => {
+    beforeEach(async () => {
+        await act(async () => {
             component = render(<ProductListView i18n={i18n}/>)
         });
     });
 
-    it('1) Renderiza', async() => {
-        await act(async() => {
+    it('1) Renderiza', async () => {
+        await act(async () => {
             const { asFragment } = component;
             expect(asFragment()).toMatchSnapshot();
         });
     });
 
-    it('2) Renderiza un listado de productos desde el client con las propiedades title, price y thumbnail', async() => {
+    it('2) Renderiza un listado de productos desde el client con las propiedades title, price y thumbnail', async () => {
         const cellphone1Title = screen.getAllByText(/samsung galaxy/i)[0];
         const cellphone1Price = screen.getByText(/38999/i);
         const cellphone1Img = screen.getAllByRole('img')[0];
@@ -60,10 +60,10 @@ describe('La view de ProductList', () => {
      * tener un sólo console.log, y ese console.log debe imprimir en 
      * consola el array de productos del carrito que implementamos.
      */
-    it('5) Agrega el producto a un array de productos seleccionados cuando se ingresa una cantidad y se presiona el botón', async() => {
+    it('5) Agrega el producto a un array de productos seleccionados cuando se ingresa una cantidad y se presiona el botón', async () => {
         const input = screen.getAllByRole('spinbutton')[0];
         fireEvent.change(input, { target: { value: 2}});
-        await act(async() => {
+        await act(async () => {
             const button = screen.getAllByRole('button')[0];
             fireEvent.click(button);
         });
