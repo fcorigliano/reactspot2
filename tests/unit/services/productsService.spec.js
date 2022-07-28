@@ -23,9 +23,8 @@ jest.mock('nordic/restclient', () => () => ({
             title: 'LG',
             price: 34634,
             thumbnail: "http://http2.mlstatic.com/D_973809-MLA48041270287_102021-I.jpg"
-        }})
-        
-}))
+        }})    
+}));
 
 describe('El servicio productsService', () => {
     describe('El método getProducts', () => {
@@ -34,8 +33,7 @@ describe('El servicio productsService', () => {
                 .then(response => {
                     expect(response).toBeInstanceOf(Array);
                     expect(response[0].id).toBe('MLA23432');
-                })
-
+                });
         });
     });
 
@@ -56,7 +54,7 @@ describe('El servicio productsService', () => {
 
     describe('El método getProduct', () => {
         it('4) Devuelve un producto con sus respectivas propiedades', async () => {
-            const product = await productsService.getProduct('MLA23432')
+            const product = await productsService.getProduct('MLA23432');
             expect(typeof product).toBe('object');
         });
     });
