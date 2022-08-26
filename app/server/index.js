@@ -15,6 +15,7 @@ require('../../mocks');
 /**
  * Routers
  */
+ const forms = require("../pages/forms");
 
 
 /**
@@ -32,6 +33,7 @@ router.use(polyfillsMiddleware(config.polyfillLimits));
 /**
  * Mount routers
  */
+ router.use("/forms", forms);
 
 /**
  * Expose router
