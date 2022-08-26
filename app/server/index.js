@@ -6,7 +6,7 @@ const config = require('nordic/config');
 const { layoutMiddleware } = require('nordic/layout');
 const i18nMiddleware = require('nordic/i18n/middleware');
 const polyfillsMiddleware = require('nordic/script/polyfills-middleware');
-
+const formValidationRoute = require('../pages/registryForm');
 /**
  * Set up mocks
  */
@@ -32,7 +32,7 @@ router.use(polyfillsMiddleware(config.polyfillLimits));
 /**
  * Mount routers
  */
-
+router.use('/registryForm', formValidationRoute);
 /**
  * Expose router
  */
