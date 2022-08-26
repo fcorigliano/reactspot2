@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`La view de Registry Form 1) Renderiza 1`] = `
+<DocumentFragment>
+  <h1>
+    Form
+  </h1>
+  <form>
+    <label
+      for="phone"
+    >
+      Celular
+    </label>
+    <input
+      id="phone"
+      name="phone"
+      type="tel"
+    />
+    <label
+      for="email"
+    >
+      Email
+    </label>
+    <input
+      id="email"
+      name="email"
+      type="email"
+    />
+  </form>
+</DocumentFragment>
+`;

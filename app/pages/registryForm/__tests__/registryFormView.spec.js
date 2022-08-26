@@ -29,7 +29,7 @@ describe('La view de Registry Form', () => {
         const input = screen.getByLabelText(/celular/i);
         fireEvent.change(input, { target: { value: 34534 }});
         fireEvent.blur(input);
-        const error = screen.getByText(/el teléfono debe tener al menos 10 números/i);
+        const error = screen.getByText(/El teléfono debe tener al menos 10 números/i);
         expect(error).toBeInTheDocument();
     });
 
@@ -39,7 +39,7 @@ describe('La view de Registry Form', () => {
         fireEvent.blur(input);
         fireEvent.change(input, { target: { value: 1561354235 }});
         fireEvent.blur(input);
-        const error = screen.queryByText(/el teléfono debe tener al menos 10 números/i);
+        const error = screen.queryByText(/El teléfono debe tener al menos 10 números/i);
         expect(error).toBeNull();
     });
 
@@ -47,7 +47,7 @@ describe('La view de Registry Form', () => {
         const input = screen.getByLabelText(/email/i);
         fireEvent.change(input, { target: { value: 'andres@' }});
         fireEvent.blur(input);
-        const error = screen.getByText(/debe ingresar un mail valido/i);
+        const error = screen.getByText(/Debe ingresar un email válido/i);
         expect(error).toBeInTheDocument();
     });
 
@@ -57,7 +57,7 @@ describe('La view de Registry Form', () => {
         fireEvent.blur(input);
         fireEvent.change(input, { target: { value: 'andres@meli.com' }});
         fireEvent.blur(input);
-        const error = screen.queryByText(/debe ingresar un mail valido/i);
+        const error = screen.queryByText(/Debe ingresar un email válido/i);
         expect(error).toBeNull();
     });
 });
